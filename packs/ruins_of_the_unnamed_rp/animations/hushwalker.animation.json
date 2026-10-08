@@ -1,0 +1,102 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.rotu.hushwalker.look": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "rotation": [
+            "query.target_x_rotation",
+            "query.target_y_rotation",
+            0
+          ]
+        }
+      }
+    },
+    "animation.rotu.hushwalker.move": {
+      "loop": true,
+      "bones": {
+        "rightLeg": {
+          "rotation": [
+            "math.cos(query.modified_distance_moved * 38.17) * 34.0 * query.modified_move_speed",
+            0,
+            0
+          ]
+        },
+        "leftLeg": {
+          "rotation": [
+            "math.cos(query.modified_distance_moved * 38.17 + 180.0) * 34.0 * query.modified_move_speed",
+            0,
+            0
+          ]
+        },
+        "rightArm": {
+          "rotation": [
+            "-28.0 + math.cos(query.modified_distance_moved * 38.17 + 180.0) * 12.0 * query.modified_move_speed",
+            0,
+            4.0
+          ]
+        },
+        "leftArm": {
+          "rotation": [
+            "-28.0 + math.cos(query.modified_distance_moved * 38.17) * 12.0 * query.modified_move_speed",
+            0,
+            -4.0
+          ]
+        },
+        "body": {
+          "rotation": [
+            4.0,
+            0,
+            "math.cos(query.modified_distance_moved * 19.0) * 4.0 * query.modified_move_speed"
+          ]
+        }
+      }
+    },
+    "animation.rotu.hushwalker.idle": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "rotation": [
+            "math.sin(query.life_time * 40.0) * 3.0",
+            0,
+            "math.sin(query.life_time * 23.0) * 7.0"
+          ]
+        },
+        "rightArm": {
+          "rotation": [
+            "math.sin(query.life_time * 50.0) * 2.0",
+            0,
+            0
+          ]
+        },
+        "leftArm": {
+          "rotation": [
+            "math.sin(query.life_time * 50.0 + 90.0) * 2.0",
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "animation.rotu.hushwalker.attack": {
+      "loop": true,
+      "bones": {
+        "rightArm": {
+          "rotation": [
+            "-60.0 - math.sin(variable.attack_time * 180.0) * 70.0",
+            0,
+            0
+          ]
+        },
+        "leftArm": {
+          "rotation": [
+            "-60.0 - math.sin(variable.attack_time * 180.0) * 70.0",
+            0,
+            0
+          ]
+        }
+      }
+    }
+  }
+}

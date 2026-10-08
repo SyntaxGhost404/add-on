@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:structure_set": {
+    "description": {
+      "identifier": "rotu:waystone"
+    },
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 597240183,
+      "spacing": 16,
+      "separation": 6,
+      "spread_type": "linear"
+    },
+    "structures": [
+      {
+        "structure": "rotu:waystone",
+        "weight": 1
+      }
+    ]
+  }
+}

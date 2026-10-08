@@ -1,0 +1,128 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.rotu.graven_sentinel.look": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "rotation": [
+            "query.variant == 0 ? 0 : query.target_x_rotation",
+            "query.variant == 0 ? 0 : query.target_y_rotation",
+            0
+          ]
+        }
+      }
+    },
+    "animation.rotu.graven_sentinel.dormant": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "rotation": [
+            28.0,
+            0,
+            0
+          ]
+        },
+        "rightArm": {
+          "rotation": [
+            -38.0,
+            -20.0,
+            8.0
+          ]
+        },
+        "leftArm": {
+          "rotation": [
+            -38.0,
+            20.0,
+            -8.0
+          ]
+        },
+        "body": {
+          "rotation": [
+            6.0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "animation.rotu.graven_sentinel.move": {
+      "loop": true,
+      "bones": {
+        "rightLeg": {
+          "rotation": [
+            "math.cos(query.modified_distance_moved * 38.17 * 0.7) * 24.0 * query.modified_move_speed",
+            0,
+            0
+          ]
+        },
+        "leftLeg": {
+          "rotation": [
+            "math.cos(query.modified_distance_moved * 38.17 * 0.7 + 180.0) * 24.0 * query.modified_move_speed",
+            0,
+            0
+          ]
+        },
+        "rightArm": {
+          "rotation": [
+            "math.cos(query.modified_distance_moved * 38.17 * 0.7 + 180.0) * 16.0 * query.modified_move_speed",
+            0,
+            0
+          ]
+        },
+        "leftArm": {
+          "rotation": [
+            "math.cos(query.modified_distance_moved * 38.17 * 0.7) * 16.0 * query.modified_move_speed",
+            0,
+            0
+          ]
+        },
+        "body": {
+          "rotation": [
+            0,
+            "math.cos(query.modified_distance_moved * 38.17 * 0.35) * 5.0 * query.modified_move_speed",
+            0
+          ]
+        }
+      }
+    },
+    "animation.rotu.graven_sentinel.attack": {
+      "loop": true,
+      "bones": {
+        "rightArm": {
+          "rotation": [
+            "-130.0 * math.sin(variable.attack_time * 180.0)",
+            0,
+            0
+          ]
+        },
+        "leftArm": {
+          "rotation": [
+            "-130.0 * math.sin(variable.attack_time * 180.0)",
+            0,
+            0
+          ]
+        },
+        "body": {
+          "rotation": [
+            "12.0 * math.sin(variable.attack_time * 180.0)",
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "animation.rotu.graven_sentinel.breathe": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "scale": [
+            1.0,
+            "1.0 + math.sin(query.life_time * 60.0) * 0.008",
+            1.0
+          ]
+        }
+      }
+    }
+  }
+}

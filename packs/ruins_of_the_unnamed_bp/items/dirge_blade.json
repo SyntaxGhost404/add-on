@@ -1,0 +1,58 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rotu:dirge_blade",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "rotu:dirge_blade"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.rotu:dirge_blade.name"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:rarity": "epic",
+      "minecraft:hand_equipped": true,
+      "minecraft:durability": {
+        "max_durability": 1800
+      },
+      "minecraft:damage": 7,
+      "minecraft:enchantable": {
+        "slot": "sword",
+        "value": 15
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "rotu:murmur_essence"
+            ],
+            "repair_amount": "query.max_durability * 0.25"
+          }
+        ]
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_sword",
+          "minecraft:is_tool"
+        ]
+      },
+      "minecraft:digger": {
+        "use_efficiency": false,
+        "destroy_speeds": [
+          {
+            "block": "minecraft:web",
+            "speed": 15
+          }
+        ]
+      },
+      "rotu:dirge_blade": {}
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:structure_set": {
+    "description": {
+      "identifier": "rotu:ossuary"
+    },
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 915384620,
+      "spacing": 38,
+      "separation": 14,
+      "spread_type": "linear"
+    },
+    "structures": [
+      {
+        "structure": "rotu:ossuary",
+        "weight": 1
+      }
+    ]
+  }
+}

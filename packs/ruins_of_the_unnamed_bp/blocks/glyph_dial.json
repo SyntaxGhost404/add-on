@@ -1,0 +1,204 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "rotu:glyph_dial",
+      "menu_category": {
+        "category": "construction"
+      },
+      "states": {
+        "rotu:glyph": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rotu:solution": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": false,
+      "minecraft:destructible_by_explosion": false,
+      "minecraft:map_color": "#3b3848",
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "rotu:glyph_dial_0",
+          "render_method": "opaque"
+        },
+        "north": {
+          "texture": "rotu:glyph_dial_0",
+          "render_method": "opaque"
+        },
+        "south": {
+          "texture": "rotu:glyph_dial_0",
+          "render_method": "opaque"
+        },
+        "east": {
+          "texture": "rotu:glyph_dial_0",
+          "render_method": "opaque"
+        },
+        "west": {
+          "texture": "rotu:glyph_dial_0",
+          "render_method": "opaque"
+        },
+        "up": {
+          "texture": "rotu:glyph_dial_top",
+          "render_method": "opaque"
+        },
+        "down": {
+          "texture": "rotu:glyph_dial_top",
+          "render_method": "opaque"
+        }
+      },
+      "rotu:glyph_dial": {}
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('rotu:glyph') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "rotu:glyph_dial_0",
+              "render_method": "opaque"
+            },
+            "north": {
+              "texture": "rotu:glyph_dial_0",
+              "render_method": "opaque"
+            },
+            "south": {
+              "texture": "rotu:glyph_dial_0",
+              "render_method": "opaque"
+            },
+            "east": {
+              "texture": "rotu:glyph_dial_0",
+              "render_method": "opaque"
+            },
+            "west": {
+              "texture": "rotu:glyph_dial_0",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "rotu:glyph_dial_top",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "rotu:glyph_dial_top",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('rotu:glyph') == 1",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "rotu:glyph_dial_1",
+              "render_method": "opaque"
+            },
+            "north": {
+              "texture": "rotu:glyph_dial_1",
+              "render_method": "opaque"
+            },
+            "south": {
+              "texture": "rotu:glyph_dial_1",
+              "render_method": "opaque"
+            },
+            "east": {
+              "texture": "rotu:glyph_dial_1",
+              "render_method": "opaque"
+            },
+            "west": {
+              "texture": "rotu:glyph_dial_1",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "rotu:glyph_dial_top",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "rotu:glyph_dial_top",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('rotu:glyph') == 2",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "rotu:glyph_dial_2",
+              "render_method": "opaque"
+            },
+            "north": {
+              "texture": "rotu:glyph_dial_2",
+              "render_method": "opaque"
+            },
+            "south": {
+              "texture": "rotu:glyph_dial_2",
+              "render_method": "opaque"
+            },
+            "east": {
+              "texture": "rotu:glyph_dial_2",
+              "render_method": "opaque"
+            },
+            "west": {
+              "texture": "rotu:glyph_dial_2",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "rotu:glyph_dial_top",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "rotu:glyph_dial_top",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('rotu:glyph') == 3",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "rotu:glyph_dial_3",
+              "render_method": "opaque"
+            },
+            "north": {
+              "texture": "rotu:glyph_dial_3",
+              "render_method": "opaque"
+            },
+            "south": {
+              "texture": "rotu:glyph_dial_3",
+              "render_method": "opaque"
+            },
+            "east": {
+              "texture": "rotu:glyph_dial_3",
+              "render_method": "opaque"
+            },
+            "west": {
+              "texture": "rotu:glyph_dial_3",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "rotu:glyph_dial_top",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "rotu:glyph_dial_top",
+              "render_method": "opaque"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

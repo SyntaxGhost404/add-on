@@ -1,0 +1,108 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "rotu:hush_bolt",
+      "spawn_category": "misc",
+      "is_spawnable": false,
+      "is_summonable": true
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "projectile",
+          "hush_bolt"
+        ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.4,
+        "height": 0.4
+      },
+      "minecraft:physics": {
+        "has_collision": false
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+        "default_values": {
+          "max_dropped_ticks": 7,
+          "max_optimized_distance": 80.0,
+          "use_motion_prediction_hints": true
+        }
+      },
+      "minecraft:projectile": {
+        "anchor": "eye_height",
+        "offset": [
+          0,
+          -0.3,
+          0
+        ],
+        "homing": true,
+        "destroy_on_hurt": true,
+        "crit_particle_on_hurt": true,
+        "gravity": 0.0,
+        "power": 0.9,
+        "inertia": 1.0,
+        "uncertainty_base": 6,
+        "uncertainty_multiplier": 2,
+        "isolated_physics": false,
+        "hit_sound": "bullet.hit",
+        "should_bounce": "if_no_damage_dealt",
+        "on_hit": {
+          "impact_damage": {
+            "damage": {
+              "min": 5,
+              "max": 7
+            },
+            "knockback": true,
+            "apply_knockback_to_blocking_targets": true
+          },
+          "mob_effect": {
+            "effects": [
+              {
+                "effect": "darkness",
+                "amplifier": 0,
+                "durationeasy": 60,
+                "durationnormal": 80,
+                "durationhard": 100
+              },
+              {
+                "effect": "slowness",
+                "amplifier": 0,
+                "durationeasy": 40,
+                "durationnormal": 60,
+                "durationhard": 80
+              }
+            ]
+          },
+          "particle_on_hit": {
+            "on_other_hit": true,
+            "on_entity_hit": true,
+            "particle_type": "largeexplode"
+          },
+          "remove_on_hit": {}
+        }
+      },
+      "minecraft:timer": {
+        "looping": false,
+        "time": 12,
+        "time_down_event": {
+          "event": "rotu:expire",
+          "target": "self"
+        }
+      }
+    },
+    "component_groups": {
+      "rotu:expired": {
+        "minecraft:instant_despawn": {}
+      }
+    },
+    "events": {
+      "rotu:expire": {
+        "add": {
+          "component_groups": [
+            "rotu:expired"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "rotu:cipher_stone",
+      "menu_category": {
+        "category": "construction"
+      },
+      "states": {
+        "rotu:glyph": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3.0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 6
+      },
+      "minecraft:map_color": "#3b3848",
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "rotu:cipher_stone_0",
+          "render_method": "opaque"
+        },
+        "north": {
+          "texture": "rotu:cipher_stone_0",
+          "render_method": "opaque"
+        },
+        "south": {
+          "texture": "rotu:cipher_stone_0",
+          "render_method": "opaque"
+        },
+        "east": {
+          "texture": "rotu:cipher_stone_0",
+          "render_method": "opaque"
+        },
+        "west": {
+          "texture": "rotu:cipher_stone_0",
+          "render_method": "opaque"
+        },
+        "up": {
+          "texture": "rotu:gloamstone_tiles",
+          "render_method": "opaque"
+        },
+        "down": {
+          "texture": "rotu:gloamstone_tiles",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible",
+        "rotu:gloamstone"
+      ],
+      "minecraft:light_emission": 3,
+      "rotu:cycler": {
+        "state": "rotu:glyph",
+        "count": 4
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('rotu:glyph') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "rotu:cipher_stone_0",
+              "render_method": "opaque"
+            },
+            "north": {
+              "texture": "rotu:cipher_stone_0",
+              "render_method": "opaque"
+            },
+            "south": {
+              "texture": "rotu:cipher_stone_0",
+              "render_method": "opaque"
+            },
+            "east": {
+              "texture": "rotu:cipher_stone_0",
+              "render_method": "opaque"
+            },
+            "west": {
+              "texture": "rotu:cipher_stone_0",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "rotu:gloamstone_tiles",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "rotu:gloamstone_tiles",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('rotu:glyph') == 1",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "rotu:cipher_stone_1",
+              "render_method": "opaque"
+            },
+            "north": {
+              "texture": "rotu:cipher_stone_1",
+              "render_method": "opaque"
+            },
+            "south": {
+              "texture": "rotu:cipher_stone_1",
+              "render_method": "opaque"
+            },
+            "east": {
+              "texture": "rotu:cipher_stone_1",
+              "render_method": "opaque"
+            },
+            "west": {
+              "texture": "rotu:cipher_stone_1",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "rotu:gloamstone_tiles",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "rotu:gloamstone_tiles",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('rotu:glyph') == 2",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "rotu:cipher_stone_2",
+              "render_method": "opaque"
+            },
+            "north": {
+              "texture": "rotu:cipher_stone_2",
+              "render_method": "opaque"
+            },
+            "south": {
+              "texture": "rotu:cipher_stone_2",
+              "render_method": "opaque"
+            },
+            "east": {
+              "texture": "rotu:cipher_stone_2",
+              "render_method": "opaque"
+            },
+            "west": {
+              "texture": "rotu:cipher_stone_2",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "rotu:gloamstone_tiles",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "rotu:gloamstone_tiles",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('rotu:glyph') == 3",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "rotu:cipher_stone_3",
+              "render_method": "opaque"
+            },
+            "north": {
+              "texture": "rotu:cipher_stone_3",
+              "render_method": "opaque"
+            },
+            "south": {
+              "texture": "rotu:cipher_stone_3",
+              "render_method": "opaque"
+            },
+            "east": {
+              "texture": "rotu:cipher_stone_3",
+              "render_method": "opaque"
+            },
+            "west": {
+              "texture": "rotu:cipher_stone_3",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "rotu:gloamstone_tiles",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "rotu:gloamstone_tiles",
+              "render_method": "opaque"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

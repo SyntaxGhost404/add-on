@@ -1,0 +1,267 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "rotu:last_cantor",
+      "spawn_category": "monster",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "last_cantor",
+          "unnamed",
+          "undead",
+          "monster",
+          "mob"
+        ]
+      },
+      "minecraft:health": {
+        "value": 280,
+        "max": 280
+      },
+      "minecraft:collision_box": {
+        "width": 0.9,
+        "height": 3.2
+      },
+      "minecraft:nameable": {},
+      "minecraft:conditional_bandwidth_optimization": {},
+      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:boss": {
+        "hud_range": 48,
+        "should_darken_sky": true
+      },
+      "minecraft:knockback_resistance": {
+        "value": 0.8
+      },
+      "minecraft:attack": {
+        "damage": 9
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:navigation.walk": {
+        "can_walk": true,
+        "avoid_water": true,
+        "can_pass_doors": true
+      },
+      "minecraft:jump.static": {},
+      "minecraft:physics": {},
+      "minecraft:pushable_by_block": {},
+      "minecraft:fire_immune": {},
+      "minecraft:persistent": {},
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0,
+        "breathes_air": true,
+        "breathes_water": true
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "fall",
+            "deals_damage": "no"
+          },
+          {
+            "cause": "suffocation",
+            "deals_damage": "no"
+          },
+          {
+            "cause": "magic",
+            "damage_multiplier": 0.5
+          }
+        ]
+      },
+      "minecraft:experience_reward": {
+        "on_death": "query.last_hit_by_player ? 250 : 0"
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/rotu/entities/last_cantor.json"
+      },
+      "minecraft:follow_range": {
+        "value": 40,
+        "max": 40
+      },
+      "minecraft:shooter": {
+        "def": "rotu:hush_bolt"
+      },
+      "minecraft:home": {
+        "restriction_radius": 16,
+        "restriction_type": "all_movement"
+      },
+      "minecraft:ambient_sound_interval": {
+        "event_name": "ambient",
+        "range": 6,
+        "value": 5
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 2,
+        "must_see": false,
+        "reselect_targets": true,
+        "within_radius": 32,
+        "entity_types": [
+          {
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "value": "player"
+            },
+            "max_dist": 32
+          }
+        ]
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 9,
+        "look_distance": 16
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 10
+      }
+    },
+    "component_groups": {
+      "rotu:phase_one": {
+        "minecraft:movement": {
+          "value": 0.2
+        },
+        "minecraft:behavior.summon_entity": {
+          "priority": 3,
+          "summon_choices": [
+            {
+              "min_activation_range": 0,
+              "max_activation_range": 28,
+              "cooldown_time": 16,
+              "weight": 1,
+              "cast_duration": 2.0,
+              "do_casting": true,
+              "particle_color": "#FF8FE3D8",
+              "start_sound_event": "cast.spell",
+              "sequence": [
+                {
+                  "shape": "circle",
+                  "target": "self",
+                  "base_delay": 1.2,
+                  "delay_per_summon": 0.25,
+                  "num_entities_spawned": 2,
+                  "entity_type": "rotu:murmur",
+                  "size": 2.5,
+                  "summon_cap": 6,
+                  "summon_cap_radius": 24,
+                  "summon_event": "rotu:temporary",
+                  "sound_event": "prepare.summon"
+                }
+              ]
+            }
+          ]
+        },
+        "minecraft:behavior.ranged_attack": {
+          "priority": 4,
+          "attack_interval": {
+            "min": 2.2,
+            "max": 3.4
+          },
+          "attack_range": {
+            "min": 0.0,
+            "max": 20.0
+          },
+          "in_range_movement_mode": "follow_target",
+          "speed_multiplier": 1.0,
+          "swing": true
+        },
+        "minecraft:environment_sensor": {
+          "triggers": [
+            {
+              "filters": {
+                "test": "actor_health",
+                "subject": "self",
+                "operator": "<=",
+                "value": 140
+              },
+              "event": "rotu:enter_phase_two"
+            }
+          ]
+        },
+        "minecraft:variant": {
+          "value": 0
+        }
+      },
+      "rotu:phase_two": {
+        "minecraft:movement": {
+          "value": 0.25
+        },
+        "minecraft:behavior.summon_entity": {
+          "priority": 3,
+          "summon_choices": [
+            {
+              "min_activation_range": 0,
+              "max_activation_range": 28,
+              "cooldown_time": 11,
+              "weight": 1,
+              "cast_duration": 2.0,
+              "do_casting": true,
+              "particle_color": "#FF8FE3D8",
+              "start_sound_event": "cast.spell",
+              "sequence": [
+                {
+                  "shape": "circle",
+                  "target": "self",
+                  "base_delay": 1.2,
+                  "delay_per_summon": 0.25,
+                  "num_entities_spawned": 3,
+                  "entity_type": "rotu:murmur",
+                  "size": 2.5,
+                  "summon_cap": 6,
+                  "summon_cap_radius": 24,
+                  "summon_event": "rotu:temporary",
+                  "sound_event": "prepare.summon"
+                }
+              ]
+            }
+          ]
+        },
+        "minecraft:behavior.ranged_attack": {
+          "priority": 4,
+          "attack_interval": {
+            "min": 1.4,
+            "max": 2.4
+          },
+          "attack_range": {
+            "min": 0.0,
+            "max": 20.0
+          },
+          "in_range_movement_mode": "follow_target",
+          "speed_multiplier": 1.0,
+          "swing": true
+        },
+        "minecraft:variant": {
+          "value": 1
+        }
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "rotu:phase_one"
+          ]
+        }
+      },
+      "rotu:enter_phase_two": {
+        "remove": {
+          "component_groups": [
+            "rotu:phase_one"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "rotu:phase_two"
+          ]
+        }
+      }
+    }
+  }
+}

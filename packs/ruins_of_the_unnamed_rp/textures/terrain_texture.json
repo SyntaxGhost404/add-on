@@ -1,0 +1,125 @@
+{
+  "resource_pack_name": "rotu",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "rotu:gloamstone_bricks": {
+      "textures": "textures/rotu/blocks/gloamstone_bricks"
+    },
+    "rotu:cracked_gloamstone_bricks": {
+      "textures": "textures/rotu/blocks/cracked_gloamstone_bricks"
+    },
+    "rotu:mossy_gloamstone_bricks": {
+      "textures": "textures/rotu/blocks/mossy_gloamstone_bricks"
+    },
+    "rotu:gloamstone_tiles": {
+      "textures": "textures/rotu/blocks/gloamstone_tiles"
+    },
+    "rotu:gilded_gloamstone": {
+      "textures": "textures/rotu/blocks/gilded_gloamstone"
+    },
+    "rotu:chiseled_gloamstone": {
+      "textures": "textures/rotu/blocks/chiseled_gloamstone"
+    },
+    "rotu:gloamstone_tiles_top": {
+      "textures": "textures/rotu/blocks/gloamstone_tiles"
+    },
+    "rotu:gloamstone_pillar_side": {
+      "textures": "textures/rotu/blocks/gloamstone_pillar_side"
+    },
+    "rotu:gloamstone_pillar_top": {
+      "textures": "textures/rotu/blocks/gloamstone_pillar_top"
+    },
+    "rotu:glyph_mural_0": {
+      "textures": "textures/rotu/blocks/glyph_mural_0"
+    },
+    "rotu:glyph_mural_1": {
+      "textures": "textures/rotu/blocks/glyph_mural_1"
+    },
+    "rotu:glyph_mural_2": {
+      "textures": "textures/rotu/blocks/glyph_mural_2"
+    },
+    "rotu:glyph_mural_3": {
+      "textures": "textures/rotu/blocks/glyph_mural_3"
+    },
+    "rotu:cipher_stone_0": {
+      "textures": "textures/rotu/blocks/cipher_stone_0"
+    },
+    "rotu:cipher_stone_1": {
+      "textures": "textures/rotu/blocks/cipher_stone_1"
+    },
+    "rotu:cipher_stone_2": {
+      "textures": "textures/rotu/blocks/cipher_stone_2"
+    },
+    "rotu:cipher_stone_3": {
+      "textures": "textures/rotu/blocks/cipher_stone_3"
+    },
+    "rotu:singing_stone": {
+      "textures": "textures/rotu/blocks/singing_stone"
+    },
+    "rotu:choir_lantern": {
+      "textures": "textures/rotu/blocks/choir_lantern"
+    },
+    "rotu:choir_lantern_top": {
+      "textures": "textures/rotu/blocks/choir_lantern_top"
+    },
+    "rotu:glyph_dial_top": {
+      "textures": "textures/rotu/blocks/glyph_dial_top"
+    },
+    "rotu:glyph_dial_0": {
+      "textures": "textures/rotu/blocks/glyph_dial_0"
+    },
+    "rotu:glyph_dial_1": {
+      "textures": "textures/rotu/blocks/glyph_dial_1"
+    },
+    "rotu:glyph_dial_2": {
+      "textures": "textures/rotu/blocks/glyph_dial_2"
+    },
+    "rotu:glyph_dial_3": {
+      "textures": "textures/rotu/blocks/glyph_dial_3"
+    },
+    "rotu:sealed_gate": {
+      "textures": "textures/rotu/blocks/sealed_gate"
+    },
+    "rotu:sealed_gate_top": {
+      "textures": "textures/rotu/blocks/sealed_gate_top"
+    },
+    "rotu:sigil_lock_on": {
+      "textures": "textures/rotu/blocks/sigil_lock_on"
+    },
+    "rotu:sigil_lock": {
+      "textures": "textures/rotu/blocks/sigil_lock"
+    },
+    "rotu:veilstone_revealed": {
+      "textures": "textures/rotu/blocks/veilstone_revealed"
+    },
+    "rotu:hushing_plate": {
+      "textures": "textures/rotu/blocks/hushing_plate"
+    },
+    "rotu:hushing_plate_spent": {
+      "textures": "textures/rotu/blocks/hushing_plate_spent"
+    },
+    "rotu:funerary_urn_0": {
+      "textures": "textures/rotu/blocks/funerary_urn_0"
+    },
+    "rotu:funerary_urn_1": {
+      "textures": "textures/rotu/blocks/funerary_urn_1"
+    },
+    "rotu:funerary_urn_2": {
+      "textures": "textures/rotu/blocks/funerary_urn_2"
+    },
+    "rotu:scriptorium_desk": {
+      "textures": "textures/rotu/blocks/scriptorium_desk"
+    },
+    "rotu:reliquary_lesser": {
+      "textures": "textures/rotu/blocks/reliquary_lesser"
+    },
+    "rotu:reliquary_grand": {
+      "textures": "textures/rotu/blocks/reliquary_grand"
+    },
+    "rotu:spawn_marker": {
+      "textures": "textures/rotu/blocks/spawn_marker"
+    }
+  }
+}

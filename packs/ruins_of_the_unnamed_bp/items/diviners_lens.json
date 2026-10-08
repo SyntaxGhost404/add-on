@@ -1,0 +1,47 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rotu:diviners_lens",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "rotu:diviners_lens"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.rotu:diviners_lens.name"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:rarity": "uncommon",
+      "minecraft:durability": {
+        "max_durability": 250
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:amethyst_shard"
+            ],
+            "repair_amount": "query.max_durability * 0.25"
+          }
+        ]
+      },
+      "minecraft:cooldown": {
+        "category": "rotu:lens",
+        "duration": 1.5,
+        "type": "use"
+      },
+      "minecraft:use_modifiers": {
+        "use_duration": 0.25,
+        "movement_modifier": 1.0
+      },
+      "minecraft:use_animation": "spyglass",
+      "rotu:diviners_lens": {}
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleResolution": "bundler",
+    "allowJs": true,
+    "checkJs": true,
+    "noEmit": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "lib": [
+      "ES2022"
+    ]
+  },
+  "include": [
+    "scripts/**/*.js",
+    "tools/types/*.d.ts"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rotu:reliquary_key"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " G ",
+      "GIG",
+      " G "
+    ],
+    "key": {
+      "G": {
+        "item": "rotu:glyph_shard"
+      },
+      "I": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "unlock": [
+      {
+        "item": "rotu:glyph_shard"
+      }
+    ],
+    "result": {
+      "item": "rotu:reliquary_key",
+      "count": 1
+    }
+  }
+}

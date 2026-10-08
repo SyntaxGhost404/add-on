@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rotu:scriptorium_desk"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BG ",
+      "PPP",
+      "P P"
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:book"
+      },
+      "G": {
+        "item": "rotu:glyph_shard"
+      },
+      "P": {
+        "tag": "minecraft:planks"
+      }
+    },
+    "unlock": [
+      {
+        "item": "rotu:glyph_shard"
+      }
+    ],
+    "result": {
+      "item": "rotu:scriptorium_desk",
+      "count": 1
+    }
+  }
+}

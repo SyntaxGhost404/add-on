@@ -1,0 +1,148 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "rotu:murmur",
+      "spawn_category": "monster",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "murmur",
+          "unnamed",
+          "undead",
+          "monster",
+          "mob"
+        ]
+      },
+      "minecraft:health": {
+        "value": 10,
+        "max": 10
+      },
+      "minecraft:collision_box": {
+        "width": 0.5,
+        "height": 0.9
+      },
+      "minecraft:nameable": {},
+      "minecraft:conditional_bandwidth_optimization": {},
+      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:attack": {
+        "damage": 2,
+        "effect_name": "darkness",
+        "effect_duration": 4
+      },
+      "minecraft:movement": {
+        "value": 0.75
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true,
+        "using_door_annotation": true
+      },
+      "minecraft:jump.static": {},
+      "minecraft:can_climb": {},
+      "minecraft:physics": {
+        "has_collision": false,
+        "has_gravity": false
+      },
+      "minecraft:fire_immune": {},
+      "minecraft:despawn": {
+        "despawn_from_distance": {}
+      },
+      "minecraft:experience_reward": {
+        "on_death": "query.last_hit_by_player ? 4 : 0"
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/rotu/entities/murmur.json"
+      },
+      "minecraft:ambient_sound_interval": {
+        "event_name": "ambient",
+        "range": 6,
+        "value": 4
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "fall",
+            "deals_damage": "no"
+          },
+          {
+            "cause": "suffocation",
+            "deals_damage": "no"
+          }
+        ]
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 2,
+        "must_see": false,
+        "reselect_targets": true,
+        "within_radius": 18,
+        "entity_types": [
+          {
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "value": "player"
+            },
+            "max_dist": 18
+          }
+        ]
+      },
+      "minecraft:behavior.charge_attack": {
+        "priority": 3,
+        "speed_multiplier": 0.85,
+        "success_rate": 0.15
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 8,
+        "look_distance": 10
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 9
+      }
+    },
+    "component_groups": {
+      "rotu:temporary": {
+        "minecraft:timer": {
+          "looping": false,
+          "randomInterval": true,
+          "time": [
+            25,
+            45
+          ],
+          "time_down_event": {
+            "event": "rotu:fade",
+            "target": "self"
+          }
+        }
+      },
+      "rotu:faded": {
+        "minecraft:instant_despawn": {}
+      }
+    },
+    "events": {
+      "rotu:temporary": {
+        "add": {
+          "component_groups": [
+            "rotu:temporary"
+          ]
+        }
+      },
+      "rotu:fade": {
+        "add": {
+          "component_groups": [
+            "rotu:faded"
+          ]
+        }
+      }
+    }
+  }
+}

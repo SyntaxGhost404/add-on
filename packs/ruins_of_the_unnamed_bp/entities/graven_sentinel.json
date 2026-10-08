@@ -1,0 +1,280 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "rotu:graven_sentinel",
+      "spawn_category": "monster",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "graven_sentinel",
+          "unnamed",
+          "construct",
+          "monster",
+          "mob"
+        ]
+      },
+      "minecraft:health": {
+        "value": 90,
+        "max": 90
+      },
+      "minecraft:collision_box": {
+        "width": 1.2,
+        "height": 2.8
+      },
+      "minecraft:nameable": {},
+      "minecraft:conditional_bandwidth_optimization": {},
+      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:attack": {
+        "damage": {
+          "range_min": 8,
+          "range_max": 13
+        }
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:navigation.walk": {
+        "can_walk": true,
+        "avoid_water": true,
+        "can_pass_doors": true,
+        "avoid_damage_blocks": true
+      },
+      "minecraft:jump.static": {},
+      "minecraft:physics": {},
+      "minecraft:pushable_by_block": {},
+      "minecraft:fire_immune": {},
+      "minecraft:persistent": {},
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0,
+        "breathes_air": true,
+        "breathes_water": true
+      },
+      "minecraft:experience_reward": {
+        "on_death": "query.last_hit_by_player ? 35 : 0"
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/rotu/entities/graven_sentinel.json"
+      },
+      "minecraft:follow_range": {
+        "value": 28,
+        "max": 28
+      },
+      "minecraft:home": {
+        "restriction_radius": 14,
+        "restriction_type": "random_movement"
+      }
+    },
+    "component_groups": {
+      "rotu:dormant": {
+        "minecraft:movement": {
+          "value": 0.0
+        },
+        "minecraft:variant": {
+          "value": 0
+        },
+        "minecraft:body_rotation_blocked": {},
+        "minecraft:damage_sensor": {
+          "triggers": [
+            {
+              "on_damage": {
+                "filters": {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                },
+                "event": "rotu:awaken"
+              },
+              "deals_damage": "yes"
+            },
+            {
+              "cause": "fall",
+              "deals_damage": "no"
+            },
+            {
+              "cause": "projectile",
+              "damage_multiplier": 0.5
+            }
+          ]
+        },
+        "minecraft:entity_sensor": {
+          "relative_range": false,
+          "subsensors": [
+            {
+              "range": [
+                4.5,
+                3.0
+              ],
+              "minimum_count": 1,
+              "event_filters": {
+                "all_of": [
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "player"
+                  },
+                  {
+                    "test": "has_ability",
+                    "subject": "other",
+                    "operator": "!=",
+                    "value": "instabuild"
+                  }
+                ]
+              },
+              "event": "rotu:awaken"
+            }
+          ]
+        }
+      },
+      "rotu:awakening": {
+        "minecraft:movement": {
+          "value": 0.0
+        },
+        "minecraft:variant": {
+          "value": 1
+        },
+        "minecraft:damage_sensor": {
+          "triggers": [
+            {
+              "cause": "fall",
+              "deals_damage": "no"
+            },
+            {
+              "cause": "projectile",
+              "damage_multiplier": 0.5
+            }
+          ]
+        },
+        "minecraft:timer": {
+          "looping": false,
+          "time": 2.2,
+          "time_down_event": {
+            "event": "rotu:activated",
+            "target": "self"
+          }
+        }
+      },
+      "rotu:active": {
+        "minecraft:movement": {
+          "value": 0.23
+        },
+        "minecraft:variant": {
+          "value": 1
+        },
+        "minecraft:damage_sensor": {
+          "triggers": [
+            {
+              "cause": "fall",
+              "deals_damage": "no"
+            },
+            {
+              "cause": "projectile",
+              "damage_multiplier": 0.5
+            }
+          ]
+        },
+        "minecraft:behavior.hurt_by_target": {
+          "priority": 1
+        },
+        "minecraft:behavior.nearest_attackable_target": {
+          "priority": 2,
+          "must_see": false,
+          "reselect_targets": true,
+          "within_radius": 24,
+          "entity_types": [
+            {
+              "filters": {
+                "any_of": [
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "player"
+                  },
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "irongolem"
+                  },
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "snowgolem"
+                  },
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "villager"
+                  },
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "wandering_trader"
+                  }
+                ]
+              },
+              "max_dist": 24
+            }
+          ]
+        },
+        "minecraft:behavior.melee_box_attack": {
+          "priority": 3,
+          "speed_multiplier": 1.1,
+          "track_target": true,
+          "cooldown_time": 1.4,
+          "horizontal_reach": 0.6
+        },
+        "minecraft:behavior.move_towards_home_restriction": {
+          "priority": 5,
+          "speed_multiplier": 0.8
+        },
+        "minecraft:behavior.random_stroll": {
+          "priority": 7,
+          "speed_multiplier": 0.6,
+          "interval": 160
+        },
+        "minecraft:behavior.look_at_player": {
+          "priority": 8,
+          "look_distance": 10
+        }
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "rotu:dormant"
+          ]
+        }
+      },
+      "rotu:awaken": {
+        "remove": {
+          "component_groups": [
+            "rotu:dormant"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "rotu:awakening"
+          ]
+        }
+      },
+      "rotu:activated": {
+        "remove": {
+          "component_groups": [
+            "rotu:awakening"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "rotu:active"
+          ]
+        }
+      }
+    }
+  }
+}

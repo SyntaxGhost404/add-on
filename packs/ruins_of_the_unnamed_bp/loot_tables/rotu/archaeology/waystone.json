@@ -1,0 +1,72 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "rotu:glyph_shard",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "rotu:inscribed_tablet",
+          "weight": 26
+        },
+        {
+          "type": "item",
+          "name": "minecraft:gold_nugget",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:emerald",
+          "weight": 6
+        },
+        {
+          "type": "item",
+          "name": "minecraft:skull_pottery_sherd",
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "minecraft:danger_pottery_sherd",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:amethyst_shard",
+          "weight": 6
+        },
+        {
+          "type": "item",
+          "name": "rotu:reliquary_key",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 8
+        }
+      ]
+    }
+  ]
+}

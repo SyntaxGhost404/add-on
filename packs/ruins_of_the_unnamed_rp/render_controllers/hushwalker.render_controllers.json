@@ -1,0 +1,45 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.rotu.hushwalker": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.v0",
+            "Texture.v1",
+            "Texture.v2"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Array.skins[query.variant]"
+      ]
+    },
+    "controller.render.rotu.hushwalker_eyes": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Texture.eyes"
+      ],
+      "ignore_lighting": true,
+      "part_visibility": [
+        {
+          "*": false
+        },
+        {
+          "head": "!query.is_invisible"
+        }
+      ]
+    }
+  }
+}

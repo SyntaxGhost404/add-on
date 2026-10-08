@@ -1,0 +1,55 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:processor_list": {
+    "description": {
+      "identifier": "rotu:crypt_decay"
+    },
+    "processors": [
+      {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "rotu:gloamstone_bricks",
+              "probability": 0.15
+            },
+            "output_state": {
+              "name": "rotu:cracked_gloamstone_bricks"
+            }
+          },
+          {
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:web",
+              "probability": 0.3
+            },
+            "output_state": {
+              "name": "minecraft:air"
+            }
+          },
+          {
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:candle",
+              "probability": 0.3
+            },
+            "output_state": {
+              "name": "minecraft:air"
+            }
+          },
+          {
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:polished_blackstone_bricks",
+              "probability": 0.15
+            },
+            "output_state": {
+              "name": "minecraft:cracked_polished_blackstone_bricks"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

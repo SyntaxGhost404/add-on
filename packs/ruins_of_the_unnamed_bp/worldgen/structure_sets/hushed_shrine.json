@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:structure_set": {
+    "description": {
+      "identifier": "rotu:hushed_shrine"
+    },
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 130591847,
+      "spacing": 34,
+      "separation": 12,
+      "spread_type": "linear"
+    },
+    "structures": [
+      {
+        "structure": "rotu:hushed_shrine",
+        "weight": 1
+      }
+    ]
+  }
+}

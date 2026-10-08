@@ -1,0 +1,255 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.rotu.graven_sentinel",
+        "texture_width": 128,
+        "texture_height": 64,
+        "visible_bounds_width": 3,
+        "visible_bounds_height": 4,
+        "visible_bounds_offset": [
+          0,
+          1.5,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "body",
+          "pivot": [
+            0,
+            14,
+            0
+          ],
+          "parent": "root",
+          "cubes": [
+            {
+              "origin": [
+                -8,
+                14,
+                -5
+              ],
+              "size": [
+                16,
+                16,
+                10
+              ],
+              "uv": [
+                48,
+                0
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                12,
+                -4
+              ],
+              "size": [
+                14,
+                2,
+                8
+              ],
+              "uv": [
+                30,
+                47
+              ]
+            }
+          ]
+        },
+        {
+          "name": "head",
+          "pivot": [
+            0,
+            30,
+            0
+          ],
+          "parent": "body",
+          "cubes": [
+            {
+              "origin": [
+                -5,
+                30,
+                -5
+              ],
+              "size": [
+                10,
+                10,
+                10
+              ],
+              "uv": [
+                0,
+                27
+              ]
+            },
+            {
+              "origin": [
+                -6,
+                40,
+                -1.5
+              ],
+              "size": [
+                12,
+                3,
+                3
+              ],
+              "uv": [
+                74,
+                47
+              ]
+            }
+          ]
+        },
+        {
+          "name": "rightArm",
+          "pivot": [
+            -9,
+            28,
+            0
+          ],
+          "parent": "body",
+          "cubes": [
+            {
+              "origin": [
+                -15,
+                26,
+                -4
+              ],
+              "size": [
+                7,
+                5,
+                8
+              ],
+              "uv": [
+                88,
+                27
+              ]
+            },
+            {
+              "origin": [
+                -14,
+                5,
+                -3
+              ],
+              "size": [
+                6,
+                21,
+                6
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "leftArm",
+          "pivot": [
+            9,
+            28,
+            0
+          ],
+          "parent": "body",
+          "cubes": [
+            {
+              "origin": [
+                8,
+                26,
+                -4
+              ],
+              "size": [
+                7,
+                5,
+                8
+              ],
+              "uv": [
+                0,
+                47
+              ]
+            },
+            {
+              "origin": [
+                8,
+                5,
+                -3
+              ],
+              "size": [
+                6,
+                21,
+                6
+              ],
+              "uv": [
+                24,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "rightLeg",
+          "pivot": [
+            -4,
+            14,
+            0
+          ],
+          "parent": "root",
+          "cubes": [
+            {
+              "origin": [
+                -7,
+                0,
+                -3
+              ],
+              "size": [
+                6,
+                14,
+                6
+              ],
+              "uv": [
+                40,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "name": "leftLeg",
+          "pivot": [
+            4,
+            14,
+            0
+          ],
+          "parent": "root",
+          "cubes": [
+            {
+              "origin": [
+                1,
+                0,
+                -3
+              ],
+              "size": [
+                6,
+                14,
+                6
+              ],
+              "uv": [
+                64,
+                27
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rotu:choristers_mask",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "rotu:choristers_mask"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.rotu:choristers_mask.name"
+      },
+      "minecraft:rarity": "rare",
+      "minecraft:wearable": {
+        "slot": "slot.armor.head",
+        "protection": 2
+      },
+      "minecraft:durability": {
+        "max_durability": 330
+      },
+      "minecraft:enchantable": {
+        "slot": "armor_head",
+        "value": 12
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "rotu:murmur_essence"
+            ],
+            "repair_amount": "query.max_durability * 0.25"
+          }
+        ]
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_armor"
+        ]
+      }
+    }
+  }
+}

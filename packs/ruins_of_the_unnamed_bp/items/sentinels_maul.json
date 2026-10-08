@@ -1,0 +1,56 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rotu:sentinels_maul",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "rotu:sentinels_maul"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.rotu:sentinels_maul.name"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:rarity": "rare",
+      "minecraft:hand_equipped": true,
+      "minecraft:durability": {
+        "max_durability": 1200
+      },
+      "minecraft:damage": 9,
+      "minecraft:enchantable": {
+        "slot": "sword",
+        "value": 10
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "rotu:gloamstone_bricks"
+            ],
+            "repair_amount": "query.max_durability * 0.15"
+          }
+        ]
+      },
+      "minecraft:cooldown": {
+        "category": "rotu:maul",
+        "duration": 1.1,
+        "type": "attack"
+      },
+      "minecraft:swing_duration": {
+        "value": 1.1
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_tool"
+        ]
+      },
+      "rotu:sentinels_maul": {}
+    }
+  }
+}

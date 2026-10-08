@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.rotu.last_cantor": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.phase0",
+            "Texture.phase1"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Array.skins[query.variant]"
+      ]
+    },
+    "controller.render.rotu.last_cantor_glow": {
+      "arrays": {
+        "textures": {
+          "Array.glow": [
+            "Texture.glow0",
+            "Texture.glow1"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Array.glow[query.variant]"
+      ],
+      "ignore_lighting": true,
+      "part_visibility": [
+        {
+          "*": "!query.is_invisible"
+        }
+      ]
+    }
+  }
+}

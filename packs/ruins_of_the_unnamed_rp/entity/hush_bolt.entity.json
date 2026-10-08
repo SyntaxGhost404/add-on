@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "rotu:hush_bolt",
+      "materials": {
+        "default": "entity_alphablend"
+      },
+      "textures": {
+        "default": "textures/rotu/entity/hush_bolt"
+      },
+      "geometry": {
+        "default": "geometry.rotu.hush_bolt"
+      },
+      "animations": {
+        "spin": "animation.rotu.hush_bolt.spin"
+      },
+      "scripts": {
+        "animate": [
+          "spin"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.rotu.hush_bolt"
+      ],
+      "particle_effects": {
+        "trail": "rotu:murmur_trail"
+      }
+    }
+  }
+}

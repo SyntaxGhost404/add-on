@@ -1,0 +1,60 @@
+{
+  "resource_pack_name": "rotu",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "rotu:codex": {
+      "textures": "textures/rotu/items/codex"
+    },
+    "rotu:glyph_shard": {
+      "textures": "textures/rotu/items/glyph_shard"
+    },
+    "rotu:inscribed_tablet": {
+      "textures": "textures/rotu/items/inscribed_tablet"
+    },
+    "rotu:reliquary_key": {
+      "textures": "textures/rotu/items/reliquary_key"
+    },
+    "rotu:lantern_shard": {
+      "textures": "textures/rotu/items/lantern_shard"
+    },
+    "rotu:bone_shard": {
+      "textures": "textures/rotu/items/bone_shard"
+    },
+    "rotu:hush_shard": {
+      "textures": "textures/rotu/items/hush_shard"
+    },
+    "rotu:sigil_key": {
+      "textures": "textures/rotu/items/sigil_key"
+    },
+    "rotu:cantors_seal": {
+      "textures": "textures/rotu/items/cantors_seal"
+    },
+    "rotu:murmur_essence": {
+      "textures": "textures/rotu/items/murmur_essence"
+    },
+    "rotu:diviners_lens": {
+      "textures": "textures/rotu/items/diviners_lens"
+    },
+    "rotu:dowsing_rod": {
+      "textures": "textures/rotu/items/dowsing_rod"
+    },
+    "rotu:delvers_pick": {
+      "textures": "textures/rotu/items/delvers_pick"
+    },
+    "rotu:dirge_blade": {
+      "textures": "textures/rotu/items/dirge_blade"
+    },
+    "rotu:sentinels_maul": {
+      "textures": "textures/rotu/items/sentinels_maul"
+    },
+    "rotu:choristers_mask": {
+      "textures": "textures/rotu/items/choristers_mask"
+    },
+    "rotu:hushweave_mantle": {
+      "textures": "textures/rotu/items/hushweave_mantle"
+    },
+    "rotu:low_star_fragment": {
+      "textures": "textures/rotu/items/low_star_fragment"
+    }
+  }
+}

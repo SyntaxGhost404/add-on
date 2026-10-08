@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:structure_set": {
+    "description": {
+      "identifier": "rotu:dig_site"
+    },
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 204958271,
+      "spacing": 26,
+      "separation": 9,
+      "spread_type": "linear"
+    },
+    "structures": [
+      {
+        "structure": "rotu:dig_site",
+        "weight": 1
+      }
+    ]
+  }
+}

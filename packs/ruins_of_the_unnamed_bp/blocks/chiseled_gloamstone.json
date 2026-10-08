@@ -1,0 +1,55 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "rotu:chiseled_gloamstone",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3.0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 6
+      },
+      "minecraft:map_color": "#3b3848",
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "rotu:chiseled_gloamstone",
+          "render_method": "opaque"
+        },
+        "north": {
+          "texture": "rotu:chiseled_gloamstone",
+          "render_method": "opaque"
+        },
+        "south": {
+          "texture": "rotu:chiseled_gloamstone",
+          "render_method": "opaque"
+        },
+        "east": {
+          "texture": "rotu:chiseled_gloamstone",
+          "render_method": "opaque"
+        },
+        "west": {
+          "texture": "rotu:chiseled_gloamstone",
+          "render_method": "opaque"
+        },
+        "up": {
+          "texture": "rotu:gloamstone_tiles_top",
+          "render_method": "opaque"
+        },
+        "down": {
+          "texture": "rotu:gloamstone_tiles_top",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible",
+        "rotu:gloamstone"
+      ]
+    }
+  }
+}

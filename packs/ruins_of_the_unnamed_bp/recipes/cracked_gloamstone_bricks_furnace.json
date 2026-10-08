@@ -1,0 +1,19 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "rotu:cracked_gloamstone_bricks_furnace"
+    },
+    "tags": [
+      "furnace",
+      "blast_furnace"
+    ],
+    "input": "rotu:gloamstone_bricks",
+    "output": "rotu:cracked_gloamstone_bricks",
+    "unlock": [
+      {
+        "item": "rotu:gloamstone_bricks"
+      }
+    ]
+  }
+}

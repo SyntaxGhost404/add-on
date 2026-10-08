@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:template_pool": {
+    "description": {
+      "identifier": "rotu:shrine_start"
+    },
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "rotu/shrine_sentinel",
+          "projection": "rigid",
+          "processors": "rotu:weathering"
+        },
+        "weight": 2
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "rotu/shrine_hollow",
+          "projection": "rigid",
+          "processors": "rotu:weathering"
+        },
+        "weight": 1
+      }
+    ]
+  }
+}

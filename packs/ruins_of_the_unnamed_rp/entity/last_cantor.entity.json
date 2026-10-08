@@ -1,0 +1,48 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "rotu:last_cantor",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "phase0": "textures/rotu/entity/last_cantor_0",
+        "phase1": "textures/rotu/entity/last_cantor_1",
+        "glow0": "textures/rotu/entity/last_cantor_glow_0",
+        "glow1": "textures/rotu/entity/last_cantor_glow_1"
+      },
+      "geometry": {
+        "default": "geometry.rotu.last_cantor"
+      },
+      "animations": {
+        "look": "animation.rotu.last_cantor.look",
+        "float": "animation.rotu.last_cantor.float",
+        "halo": "animation.rotu.last_cantor.halo",
+        "cast": "animation.rotu.last_cantor.cast",
+        "attack": "animation.rotu.last_cantor.attack"
+      },
+      "scripts": {
+        "animate": [
+          "look",
+          "float",
+          "halo",
+          {
+            "cast": "query.is_casting"
+          },
+          {
+            "attack": "variable.attack_time > 0.0"
+          }
+        ]
+      },
+      "render_controllers": [
+        "controller.render.rotu.last_cantor",
+        "controller.render.rotu.last_cantor_glow"
+      ],
+      "spawn_egg": {
+        "base_color": "#16111e",
+        "overlay_color": "#d1ac45"
+      }
+    }
+  }
+}

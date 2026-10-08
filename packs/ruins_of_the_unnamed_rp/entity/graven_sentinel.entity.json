@@ -1,0 +1,50 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "rotu:graven_sentinel",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/rotu/entity/graven_sentinel",
+        "glow": "textures/rotu/entity/graven_sentinel_glow"
+      },
+      "geometry": {
+        "default": "geometry.rotu.graven_sentinel"
+      },
+      "animations": {
+        "look": "animation.rotu.graven_sentinel.look",
+        "dormant": "animation.rotu.graven_sentinel.dormant",
+        "move": "animation.rotu.graven_sentinel.move",
+        "attack": "animation.rotu.graven_sentinel.attack",
+        "breathe": "animation.rotu.graven_sentinel.breathe"
+      },
+      "scripts": {
+        "animate": [
+          "look",
+          {
+            "dormant": "query.variant == 0"
+          },
+          {
+            "move": "query.variant == 1"
+          },
+          {
+            "breathe": "query.variant == 1"
+          },
+          {
+            "attack": "variable.attack_time > 0.0"
+          }
+        ]
+      },
+      "render_controllers": [
+        "controller.render.rotu.graven_sentinel",
+        "controller.render.rotu.graven_sentinel_glow"
+      ],
+      "spawn_egg": {
+        "base_color": "#4c4858",
+        "overlay_color": "#55c2b9"
+      }
+    }
+  }
+}

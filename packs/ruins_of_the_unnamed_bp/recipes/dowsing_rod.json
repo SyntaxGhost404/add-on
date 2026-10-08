@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rotu:dowsing_rod"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "S S",
+      " G ",
+      " C "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "G": {
+        "item": "rotu:glyph_shard"
+      },
+      "C": {
+        "item": "minecraft:copper_ingot"
+      }
+    },
+    "unlock": [
+      {
+        "item": "rotu:glyph_shard"
+      }
+    ],
+    "result": {
+      "item": "rotu:dowsing_rod",
+      "count": 1
+    }
+  }
+}

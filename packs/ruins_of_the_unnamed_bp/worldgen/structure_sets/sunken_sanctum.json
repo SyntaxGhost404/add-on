@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:structure_set": {
+    "description": {
+      "identifier": "rotu:sunken_sanctum"
+    },
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 640281937,
+      "spacing": 56,
+      "separation": 22,
+      "spread_type": "linear"
+    },
+    "structures": [
+      {
+        "structure": "rotu:sunken_sanctum",
+        "weight": 1
+      }
+    ]
+  }
+}

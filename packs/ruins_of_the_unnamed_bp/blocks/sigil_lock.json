@@ -1,0 +1,92 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "rotu:sigil_lock",
+      "menu_category": {
+        "category": "construction"
+      },
+      "states": {
+        "rotu:unlocked": [
+          false,
+          true
+        ]
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": false,
+      "minecraft:destructible_by_explosion": false,
+      "minecraft:map_color": "#3b3848",
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "rotu:sigil_lock",
+          "render_method": "opaque"
+        },
+        "north": {
+          "texture": "rotu:sigil_lock",
+          "render_method": "opaque"
+        },
+        "south": {
+          "texture": "rotu:sigil_lock",
+          "render_method": "opaque"
+        },
+        "east": {
+          "texture": "rotu:sigil_lock",
+          "render_method": "opaque"
+        },
+        "west": {
+          "texture": "rotu:sigil_lock",
+          "render_method": "opaque"
+        },
+        "up": {
+          "texture": "rotu:sealed_gate_top",
+          "render_method": "opaque"
+        },
+        "down": {
+          "texture": "rotu:sealed_gate_top",
+          "render_method": "opaque"
+        }
+      },
+      "rotu:sigil_lock": {}
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('rotu:unlocked')",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "rotu:sigil_lock_on",
+              "render_method": "opaque"
+            },
+            "north": {
+              "texture": "rotu:sigil_lock_on",
+              "render_method": "opaque"
+            },
+            "south": {
+              "texture": "rotu:sigil_lock_on",
+              "render_method": "opaque"
+            },
+            "east": {
+              "texture": "rotu:sigil_lock_on",
+              "render_method": "opaque"
+            },
+            "west": {
+              "texture": "rotu:sigil_lock_on",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "rotu:sealed_gate_top",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "rotu:sealed_gate_top",
+              "render_method": "opaque"
+            }
+          },
+          "minecraft:light_emission": 10
+        }
+      }
+    ]
+  }
+}

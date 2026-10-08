@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:template_pool": {
+    "description": {
+      "identifier": "rotu:ossuary_bone_choir"
+    },
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "rotu/ossuary_bone_choir",
+          "projection": "rigid",
+          "processors": "rotu:crypt_decay"
+        },
+        "weight": 1
+      }
+    ],
+    "fallback": "rotu:ossuary_caps"
+  }
+}

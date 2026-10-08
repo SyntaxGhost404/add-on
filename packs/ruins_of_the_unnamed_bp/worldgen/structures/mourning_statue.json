@@ -1,0 +1,179 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:jigsaw": {
+    "description": {
+      "identifier": "rotu:mourning_statue"
+    },
+    "biome_filters": [
+      {
+        "all_of": [
+          {
+            "any_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "overworld"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "overworld_generation"
+              }
+            ]
+          },
+          {
+            "any_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "forest"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "plains"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "taiga"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "savanna"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "extreme_hills"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "mountains"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "meadow"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "birch"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "roofed"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "flower_forest"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "dappled_forest"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "cherry_grove"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "pale_garden"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "swamp"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "jungle"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "desert"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "mesa"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "grove"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "ice_plains"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "mangrove_swamp"
+              }
+            ]
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "!=",
+            "value": "ocean"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "!=",
+            "value": "river"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "!=",
+            "value": "beach"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "!=",
+            "value": "mooshroom_island"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "!=",
+            "value": "deep_dark"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "!=",
+            "value": "caves"
+          }
+        ]
+      }
+    ],
+    "step": "surface_structures",
+    "terrain_adaptation": "beard_thin",
+    "start_pool": "rotu:statue_start",
+    "start_height": {
+      "type": "constant",
+      "value": {
+        "absolute": -1
+      }
+    },
+    "heightmap_projection": "world_surface",
+    "max_depth": 1,
+    "max_distance_from_center": 16,
+    "dimension_padding": {
+      "top": 10,
+      "bottom": 8
+    },
+    "liquid_settings": "ignore_waterlogging"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "rotu:hushwalker": {
+        "volume": 1.0,
+        "pitch": [
+          0.9,
+          1.1
+        ],
+        "events": {
+          "ambient": "rotu.hushwalker.ambient",
+          "hurt": "rotu.hushwalker.hurt",
+          "death": "rotu.hushwalker.death",
+          "step": {
+            "sound": "rotu.hushwalker.step",
+            "volume": 0.35,
+            "pitch": 1.0
+          }
+        }
+      },
+      "rotu:murmur": {
+        "volume": 0.9,
+        "pitch": [
+          0.9,
+          1.1
+        ],
+        "events": {
+          "ambient": "rotu.murmur.ambient",
+          "hurt": "rotu.murmur.hurt",
+          "death": "rotu.murmur.death",
+          "charge": "rotu.murmur.charge"
+        }
+      },
+      "rotu:graven_sentinel": {
+        "volume": 1.0,
+        "pitch": [
+          0.9,
+          1.0
+        ],
+        "events": {
+          "hurt": "rotu.sentinel.hurt",
+          "death": "rotu.sentinel.death",
+          "attack.strong": "rotu.sentinel.attack",
+          "step": {
+            "sound": "rotu.sentinel.step",
+            "volume": 0.8,
+            "pitch": 1.0
+          }
+        }
+      },
+      "rotu:last_cantor": {
+        "volume": 1.2,
+        "pitch": [
+          0.95,
+          1.05
+        ],
+        "events": {
+          "ambient": "rotu.cantor.ambient",
+          "hurt": "rotu.cantor.hurt",
+          "death": "rotu.cantor.death",
+          "cast.spell": "rotu.cantor.cast",
+          "prepare.summon": "rotu.cantor.summon"
+        }
+      }
+    }
+  }
+}

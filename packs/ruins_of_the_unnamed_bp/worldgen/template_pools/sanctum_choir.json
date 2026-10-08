@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:template_pool": {
+    "description": {
+      "identifier": "rotu:sanctum_choir"
+    },
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "rotu/sanctum_choir",
+          "projection": "rigid"
+        },
+        "weight": 1
+      }
+    ]
+  }
+}

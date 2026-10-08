@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:template_pool": {
+    "description": {
+      "identifier": "rotu:ossuary_start"
+    },
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "rotu/ossuary_mausoleum",
+          "projection": "rigid",
+          "processors": "rotu:crypt_decay"
+        },
+        "weight": 1
+      }
+    ]
+  }
+}

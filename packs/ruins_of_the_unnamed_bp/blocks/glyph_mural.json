@@ -1,0 +1,209 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "rotu:glyph_mural",
+      "menu_category": {
+        "category": "construction"
+      },
+      "states": {
+        "rotu:panel": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3.0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 6
+      },
+      "minecraft:map_color": "#3b3848",
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "rotu:glyph_mural_0",
+          "render_method": "opaque"
+        },
+        "north": {
+          "texture": "rotu:glyph_mural_0",
+          "render_method": "opaque"
+        },
+        "south": {
+          "texture": "rotu:glyph_mural_0",
+          "render_method": "opaque"
+        },
+        "east": {
+          "texture": "rotu:glyph_mural_0",
+          "render_method": "opaque"
+        },
+        "west": {
+          "texture": "rotu:glyph_mural_0",
+          "render_method": "opaque"
+        },
+        "up": {
+          "texture": "rotu:gloamstone_tiles",
+          "render_method": "opaque"
+        },
+        "down": {
+          "texture": "rotu:gloamstone_tiles",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible",
+        "rotu:gloamstone"
+      ],
+      "rotu:cycler": {
+        "state": "rotu:panel",
+        "count": 4
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('rotu:panel') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "rotu:glyph_mural_0",
+              "render_method": "opaque"
+            },
+            "north": {
+              "texture": "rotu:glyph_mural_0",
+              "render_method": "opaque"
+            },
+            "south": {
+              "texture": "rotu:glyph_mural_0",
+              "render_method": "opaque"
+            },
+            "east": {
+              "texture": "rotu:glyph_mural_0",
+              "render_method": "opaque"
+            },
+            "west": {
+              "texture": "rotu:glyph_mural_0",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "rotu:gloamstone_tiles",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "rotu:gloamstone_tiles",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('rotu:panel') == 1",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "rotu:glyph_mural_1",
+              "render_method": "opaque"
+            },
+            "north": {
+              "texture": "rotu:glyph_mural_1",
+              "render_method": "opaque"
+            },
+            "south": {
+              "texture": "rotu:glyph_mural_1",
+              "render_method": "opaque"
+            },
+            "east": {
+              "texture": "rotu:glyph_mural_1",
+              "render_method": "opaque"
+            },
+            "west": {
+              "texture": "rotu:glyph_mural_1",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "rotu:gloamstone_tiles",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "rotu:gloamstone_tiles",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('rotu:panel') == 2",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "rotu:glyph_mural_2",
+              "render_method": "opaque"
+            },
+            "north": {
+              "texture": "rotu:glyph_mural_2",
+              "render_method": "opaque"
+            },
+            "south": {
+              "texture": "rotu:glyph_mural_2",
+              "render_method": "opaque"
+            },
+            "east": {
+              "texture": "rotu:glyph_mural_2",
+              "render_method": "opaque"
+            },
+            "west": {
+              "texture": "rotu:glyph_mural_2",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "rotu:gloamstone_tiles",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "rotu:gloamstone_tiles",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('rotu:panel') == 3",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "rotu:glyph_mural_3",
+              "render_method": "opaque"
+            },
+            "north": {
+              "texture": "rotu:glyph_mural_3",
+              "render_method": "opaque"
+            },
+            "south": {
+              "texture": "rotu:glyph_mural_3",
+              "render_method": "opaque"
+            },
+            "east": {
+              "texture": "rotu:glyph_mural_3",
+              "render_method": "opaque"
+            },
+            "west": {
+              "texture": "rotu:glyph_mural_3",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "rotu:gloamstone_tiles",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "rotu:gloamstone_tiles",
+              "render_method": "opaque"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

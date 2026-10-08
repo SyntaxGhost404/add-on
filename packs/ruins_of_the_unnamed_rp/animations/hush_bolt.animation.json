@@ -1,0 +1,23 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.rotu.hush_bolt.spin": {
+      "loop": true,
+      "animation_length": 1.0,
+      "bones": {
+        "bolt": {
+          "rotation": [
+            "query.life_time * 360.0",
+            "query.life_time * 280.0",
+            0
+          ]
+        }
+      },
+      "particle_effects": {
+        "0.0": {
+          "effect": "trail"
+        }
+      }
+    }
+  }
+}

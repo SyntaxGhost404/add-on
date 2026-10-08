@@ -1,0 +1,31 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "rotu:gilded_gloamstone"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "rotu:gloamstone_bricks"
+      },
+      {
+        "item": "minecraft:gold_nugget"
+      },
+      {
+        "item": "minecraft:gold_nugget"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "rotu:gloamstone_bricks"
+      }
+    ],
+    "result": {
+      "item": "rotu:gilded_gloamstone",
+      "count": 1
+    }
+  }
+}

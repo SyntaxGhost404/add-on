@@ -1,0 +1,37 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:template_pool": {
+    "description": {
+      "identifier": "rotu:statue_start"
+    },
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "rotu/statue_kneeling",
+          "projection": "rigid",
+          "processors": "rotu:weathering"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "rotu/statue_lantern",
+          "projection": "rigid",
+          "processors": "rotu:weathering"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "rotu/statue_toppled",
+          "projection": "rigid",
+          "processors": "rotu:weathering"
+        },
+        "weight": 1
+      }
+    ]
+  }
+}

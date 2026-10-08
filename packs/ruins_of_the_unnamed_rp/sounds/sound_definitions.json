@@ -1,0 +1,690 @@
+{
+  "format_version": "1.20.20",
+  "sound_definitions": {
+    "rotu.hushwalker.ambient": {
+      "category": "hostile",
+      "sounds": [
+        {
+          "name": "sounds/mob/husk/idle1",
+          "pitch": 0.62,
+          "volume": 0.9
+        },
+        {
+          "name": "sounds/mob/husk/idle2",
+          "pitch": 0.62,
+          "volume": 0.9
+        },
+        {
+          "name": "sounds/mob/husk/idle3",
+          "pitch": 0.62,
+          "volume": 0.9
+        },
+        {
+          "name": "sounds/mob/zombie_villager/say1",
+          "pitch": 0.5,
+          "volume": 0.7
+        },
+        {
+          "name": "sounds/mob/zombie_villager/say2",
+          "pitch": 0.5,
+          "volume": 0.7
+        },
+        {
+          "name": "sounds/mob/zombie_villager/say3",
+          "pitch": 0.5,
+          "volume": 0.7
+        }
+      ]
+    },
+    "rotu.hushwalker.hurt": {
+      "category": "hostile",
+      "sounds": [
+        {
+          "name": "sounds/mob/husk/hurt1",
+          "pitch": 0.7,
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/mob/husk/hurt2",
+          "pitch": 0.7,
+          "volume": 1.0
+        }
+      ]
+    },
+    "rotu.hushwalker.death": {
+      "category": "hostile",
+      "sounds": [
+        {
+          "name": "sounds/mob/husk/death1",
+          "pitch": 0.6,
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/mob/husk/death2",
+          "pitch": 0.6,
+          "volume": 1.0
+        }
+      ]
+    },
+    "rotu.hushwalker.step": {
+      "category": "hostile",
+      "sounds": [
+        {
+          "name": "sounds/mob/husk/step1",
+          "pitch": 0.8,
+          "volume": 0.5
+        },
+        {
+          "name": "sounds/mob/husk/step2",
+          "pitch": 0.8,
+          "volume": 0.5
+        },
+        {
+          "name": "sounds/mob/husk/step3",
+          "pitch": 0.8,
+          "volume": 0.5
+        },
+        {
+          "name": "sounds/mob/husk/step4",
+          "pitch": 0.8,
+          "volume": 0.5
+        },
+        {
+          "name": "sounds/mob/husk/step5",
+          "pitch": 0.8,
+          "volume": 0.5
+        }
+      ]
+    },
+    "rotu.murmur.ambient": {
+      "category": "hostile",
+      "sounds": [
+        {
+          "name": "sounds/mob/vex/idle1",
+          "pitch": 0.55,
+          "volume": 0.8
+        },
+        {
+          "name": "sounds/mob/vex/idle2",
+          "pitch": 0.55,
+          "volume": 0.8
+        },
+        {
+          "name": "sounds/mob/vex/idle3",
+          "pitch": 0.55,
+          "volume": 0.8
+        },
+        {
+          "name": "sounds/mob/vex/idle4",
+          "pitch": 0.55,
+          "volume": 0.8
+        },
+        {
+          "name": "sounds/mob/allay/idle_without_item1",
+          "pitch": 0.42,
+          "volume": 0.7
+        },
+        {
+          "name": "sounds/mob/allay/idle_without_item2",
+          "pitch": 0.42,
+          "volume": 0.7
+        },
+        {
+          "name": "sounds/mob/allay/idle_without_item3",
+          "pitch": 0.42,
+          "volume": 0.7
+        },
+        {
+          "name": "sounds/mob/allay/idle_without_item4",
+          "pitch": 0.42,
+          "volume": 0.7
+        },
+        {
+          "name": "sounds/rotu/whisper1",
+          "pitch": 1.0,
+          "volume": 0.8
+        },
+        {
+          "name": "sounds/rotu/whisper2",
+          "pitch": 0.9,
+          "volume": 0.8
+        }
+      ]
+    },
+    "rotu.murmur.hurt": {
+      "category": "hostile",
+      "sounds": [
+        {
+          "name": "sounds/mob/vex/hurt1",
+          "pitch": 0.6,
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/mob/vex/hurt2",
+          "pitch": 0.6,
+          "volume": 1.0
+        }
+      ]
+    },
+    "rotu.murmur.death": {
+      "category": "hostile",
+      "sounds": [
+        {
+          "name": "sounds/mob/vex/death1",
+          "pitch": 0.5,
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/mob/vex/death2",
+          "pitch": 0.5,
+          "volume": 1.0
+        }
+      ]
+    },
+    "rotu.murmur.charge": {
+      "category": "hostile",
+      "sounds": [
+        {
+          "name": "sounds/mob/vex/charge1",
+          "pitch": 0.55,
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/mob/vex/charge2",
+          "pitch": 0.55,
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/mob/vex/charge3",
+          "pitch": 0.55,
+          "volume": 1.0
+        }
+      ]
+    },
+    "rotu.sentinel.step": {
+      "category": "hostile",
+      "sounds": [
+        {
+          "name": "sounds/step/stone1",
+          "pitch": 0.45,
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/step/stone2",
+          "pitch": 0.45,
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/step/stone3",
+          "pitch": 0.45,
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/step/stone4",
+          "pitch": 0.45,
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/step/stone5",
+          "pitch": 0.45,
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/step/stone6",
+          "pitch": 0.45,
+          "volume": 1.0
+        }
+      ]
+    },
+    "rotu.sentinel.hurt": {
+      "category": "hostile",
+      "sounds": [
+        {
+          "name": "sounds/dig/stone1",
+          "pitch": 0.55,
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/dig/stone2",
+          "pitch": 0.55,
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/dig/stone3",
+          "pitch": 0.55,
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/dig/stone4",
+          "pitch": 0.55,
+          "volume": 1.0
+        }
+      ]
+    },
+    "rotu.sentinel.death": {
+      "category": "hostile",
+      "sounds": [
+        {
+          "name": "sounds/block/trial_spawner/break1",
+          "pitch": 0.5,
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/block/trial_spawner/break2",
+          "pitch": 0.5,
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/block/trial_spawner/break3",
+          "pitch": 0.5,
+          "volume": 1.0
+        }
+      ]
+    },
+    "rotu.sentinel.attack": {
+      "category": "hostile",
+      "sounds": [
+        {
+          "name": "sounds/mob/warden/attack_impact_1",
+          "pitch": 0.9,
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/mob/warden/attack_impact_2",
+          "pitch": 0.85,
+          "volume": 1.0
+        }
+      ]
+    },
+    "rotu.sentinel.awaken": {
+      "category": "hostile",
+      "sounds": [
+        {
+          "name": "sounds/block/vault/activate",
+          "pitch": 0.5,
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/mob/creaking/activate",
+          "pitch": 0.7,
+          "volume": 1.0
+        }
+      ]
+    },
+    "rotu.cantor.ambient": {
+      "category": "hostile",
+      "sounds": [
+        {
+          "name": "sounds/mob/evocation_illager/idle1",
+          "pitch": 0.5,
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/mob/evocation_illager/idle2",
+          "pitch": 0.5,
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/mob/evocation_illager/idle3",
+          "pitch": 0.5,
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/mob/evocation_illager/idle4",
+          "pitch": 0.5,
+          "volume": 1.0
+        }
+      ]
+    },
+    "rotu.cantor.hurt": {
+      "category": "hostile",
+      "sounds": [
+        {
+          "name": "sounds/mob/evocation_illager/hurt1",
+          "pitch": 0.55,
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/mob/evocation_illager/hurt2",
+          "pitch": 0.55,
+          "volume": 1.0
+        }
+      ]
+    },
+    "rotu.cantor.death": {
+      "category": "hostile",
+      "sounds": [
+        {
+          "name": "sounds/mob/wither/death",
+          "pitch": 0.7,
+          "volume": 1.0
+        }
+      ]
+    },
+    "rotu.cantor.cast": {
+      "category": "hostile",
+      "sounds": [
+        {
+          "name": "sounds/mob/evocation_illager/cast1",
+          "pitch": 0.6,
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/mob/evocation_illager/cast2",
+          "pitch": 0.6,
+          "volume": 1.0
+        }
+      ]
+    },
+    "rotu.cantor.summon": {
+      "category": "hostile",
+      "sounds": [
+        {
+          "name": "sounds/rotu/whisper1",
+          "pitch": 0.8,
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/rotu/whisper2",
+          "pitch": 0.7,
+          "volume": 1.0
+        }
+      ]
+    },
+    "rotu.cantor.awaken": {
+      "category": "hostile",
+      "sounds": [
+        {
+          "name": "sounds/rotu/choir_drone",
+          "pitch": 0.85,
+          "volume": 1.0
+        }
+      ]
+    },
+    "rotu.cantor.pulse": {
+      "category": "hostile",
+      "sounds": [
+        {
+          "name": "sounds/mob/warden/sonic_charge1",
+          "pitch": 0.75,
+          "volume": 0.8
+        }
+      ]
+    },
+    "rotu.cantor.blink": {
+      "category": "hostile",
+      "sounds": [
+        {
+          "name": "sounds/mob/endermen/portal",
+          "pitch": 0.6,
+          "volume": 0.8
+        }
+      ]
+    },
+    "rotu.reliquary.open": {
+      "category": "block",
+      "sounds": [
+        {
+          "name": "sounds/rotu/choir_drone",
+          "pitch": 1.15,
+          "volume": 0.7
+        }
+      ]
+    },
+    "rotu.reliquary.insert": {
+      "category": "block",
+      "sounds": [
+        {
+          "name": "sounds/block/vault/insert",
+          "pitch": 0.8,
+          "volume": 1.0
+        }
+      ]
+    },
+    "rotu.reliquary.eject": {
+      "category": "block",
+      "sounds": [
+        {
+          "name": "sounds/block/vault/eject_item1",
+          "pitch": 0.85,
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/block/vault/eject_item2",
+          "pitch": 0.85,
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/block/vault/eject_item3",
+          "pitch": 0.85,
+          "volume": 1.0
+        }
+      ]
+    },
+    "rotu.reliquary.denied": {
+      "category": "block",
+      "sounds": [
+        {
+          "name": "sounds/block/vault/insert_fail",
+          "pitch": 0.8,
+          "volume": 1.0
+        }
+      ]
+    },
+    "rotu.reliquary.ambient": {
+      "category": "block",
+      "sounds": [
+        {
+          "name": "sounds/block/vault/ambient1",
+          "pitch": 0.7,
+          "volume": 0.4
+        },
+        {
+          "name": "sounds/block/vault/ambient2",
+          "pitch": 0.7,
+          "volume": 0.4
+        },
+        {
+          "name": "sounds/block/vault/ambient3",
+          "pitch": 0.7,
+          "volume": 0.4
+        }
+      ]
+    },
+    "rotu.dial.turn": {
+      "category": "block",
+      "sounds": [
+        {
+          "name": "sounds/random/click",
+          "pitch": 0.55,
+          "volume": 0.8
+        },
+        {
+          "name": "sounds/dig/stone1",
+          "pitch": 0.7,
+          "volume": 0.6
+        }
+      ]
+    },
+    "rotu.gate.open": {
+      "category": "block",
+      "sounds": [
+        {
+          "name": "sounds/block/end_portal/endportal",
+          "pitch": 0.65,
+          "volume": 0.6
+        }
+      ]
+    },
+    "rotu.puzzle.solved": {
+      "category": "block",
+      "sounds": [
+        {
+          "name": "sounds/rotu/glyph_chime",
+          "pitch": 1.0,
+          "volume": 1.0
+        }
+      ]
+    },
+    "rotu.decipher": {
+      "category": "block",
+      "sounds": [
+        {
+          "name": "sounds/rotu/glyph_chime",
+          "pitch": 0.85,
+          "volume": 0.9
+        }
+      ]
+    },
+    "rotu.singing_stone.hum": {
+      "category": "block",
+      "sounds": [
+        {
+          "name": "sounds/rotu/low_hum",
+          "pitch": 1.0,
+          "volume": 0.6
+        },
+        {
+          "name": "sounds/block/amethyst/resonate1",
+          "pitch": 0.5,
+          "volume": 0.5
+        },
+        {
+          "name": "sounds/block/amethyst/resonate2",
+          "pitch": 0.45,
+          "volume": 0.5
+        }
+      ]
+    },
+    "rotu.whisper": {
+      "category": "ambient",
+      "sounds": [
+        {
+          "name": "sounds/rotu/whisper1",
+          "pitch": 1.0,
+          "volume": 0.7
+        },
+        {
+          "name": "sounds/rotu/whisper2",
+          "pitch": 0.95,
+          "volume": 0.7
+        },
+        {
+          "name": "sounds/cave/cave3",
+          "pitch": 0.8,
+          "volume": 0.5
+        },
+        {
+          "name": "sounds/cave/cave9",
+          "pitch": 0.7,
+          "volume": 0.5
+        },
+        {
+          "name": "sounds/cave/cave13",
+          "pitch": 0.75,
+          "volume": 0.5
+        }
+      ]
+    },
+    "rotu.trap.trigger": {
+      "category": "block",
+      "sounds": [
+        {
+          "name": "sounds/block/sculk_shrieker/shriek1",
+          "pitch": 0.7,
+          "volume": 0.7
+        },
+        {
+          "name": "sounds/block/sculk_shrieker/shriek2",
+          "pitch": 0.7,
+          "volume": 0.7
+        },
+        {
+          "name": "sounds/block/sculk_shrieker/shriek3",
+          "pitch": 0.7,
+          "volume": 0.7
+        }
+      ]
+    },
+    "rotu.urn.break": {
+      "category": "block",
+      "sounds": [
+        {
+          "name": "sounds/block/decorated_pot/shatter1",
+          "pitch": 0.8,
+          "volume": 1.0
+        }
+      ]
+    },
+    "rotu.lens.use": {
+      "category": "player",
+      "sounds": [
+        {
+          "name": "sounds/block/amethyst/shimmer",
+          "pitch": 1.25,
+          "volume": 0.8
+        }
+      ]
+    },
+    "rotu.dowse.ping": {
+      "category": "player",
+      "sounds": [
+        {
+          "name": "sounds/note/icechime",
+          "pitch": 1.0,
+          "volume": 0.7
+        }
+      ]
+    },
+    "rotu.starcall": {
+      "category": "player",
+      "sounds": [
+        {
+          "name": "sounds/block/respawn_anchor/set_spawn1",
+          "pitch": 0.8,
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/rotu/glyph_chime",
+          "pitch": 0.7,
+          "volume": 1.0
+        }
+      ]
+    },
+    "rotu.dirge.echo": {
+      "category": "player",
+      "sounds": [
+        {
+          "name": "sounds/block/bell/bell_use01",
+          "pitch": 0.5,
+          "volume": 0.6
+        },
+        {
+          "name": "sounds/block/bell/bell_use02",
+          "pitch": 0.48,
+          "volume": 0.6
+        }
+      ]
+    },
+    "rotu.codex.open": {
+      "category": "player",
+      "sounds": [
+        {
+          "name": "sounds/item/book/open_flip1",
+          "pitch": 0.85,
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/item/book/open_flip2",
+          "pitch": 0.85,
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/item/book/open_flip3",
+          "pitch": 0.85,
+          "volume": 1.0
+        }
+      ]
+    }
+  }
+}

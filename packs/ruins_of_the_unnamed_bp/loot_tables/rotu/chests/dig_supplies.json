@@ -1,0 +1,168 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_book_contents",
+              "author": "Archivist I. Hale",
+              "title": "Field Journal",
+              "pages": [
+                "FIELD JOURNAL\nArchivist I. Hale\n\nDay 9. The tablets are real. Every one bears the same scar where a name should be. Whoever these people were, they erased themselves on purpose.",
+                "Day 12. I can read them now. The glyphs are a tuning system, not an alphabet. Set a tablet on a Scriptorium Desk (planks, a book, a glyph shard) and the meaning rises like frost on glass.",
+                "I copy everything into a Codex - any book bound with a glyph shard will do. It keeps the chapters in order and it seems to know what we should look for next.",
+                "Day 15. Brush the loose sand and gravel near the old stones; that is where the tablets sleep. Mind the urns. Something comes out of some of them.",
+                "Day 19. The shrines have dials. The answer is always carved above the gate, left to right. M. turned them wrong twice and the ground went quiet under her feet.",
+                "Day 21. A lens of amethyst shows walls that are not walls. A forked rod hums near the singing stones, even through rock. Dig where it pulls hardest.",
+                "Day 23. The stones hum at night. The crew will not sleep. I am going below tomorrow to find the source.\n\nIf you are reading this, I did not come back up. Do not say your name down there."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:brush",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "rotu:codex",
+          "weight": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "chance": 0.6
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 3,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:torch",
+          "weight": 14,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bread",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:paper",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "rotu:glyph_shard",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lantern",
+          "weight": 6
+        },
+        {
+          "type": "item",
+          "name": "minecraft:copper_ingot",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:amethyst_shard",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:empty_map",
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "minecraft:spyglass",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:compass",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rotu:sigil_key"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "LBH",
+      " I "
+    ],
+    "key": {
+      "L": {
+        "item": "rotu:lantern_shard"
+      },
+      "B": {
+        "item": "rotu:bone_shard"
+      },
+      "H": {
+        "item": "rotu:hush_shard"
+      },
+      "I": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "unlock": [
+      {
+        "item": "rotu:lantern_shard"
+      },
+      {
+        "item": "rotu:bone_shard"
+      },
+      {
+        "item": "rotu:hush_shard"
+      }
+    ],
+    "result": {
+      "item": "rotu:sigil_key",
+      "count": 1
+    }
+  }
+}

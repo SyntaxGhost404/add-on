@@ -1,0 +1,45 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "rotu:murmur",
+      "population_control": "monster"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_underground": {},
+        "minecraft:spawns_on_block_filter": [
+          "rotu:gloamstone_bricks",
+          "rotu:cracked_gloamstone_bricks",
+          "rotu:mossy_gloamstone_bricks",
+          "rotu:gloamstone_tiles",
+          "rotu:chiseled_gloamstone"
+        ],
+        "minecraft:brightness_filter": {
+          "min": 0,
+          "max": 4,
+          "adjust_for_weather": false
+        },
+        "minecraft:difficulty_filter": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "minecraft:weight": {
+          "default": 15
+        },
+        "minecraft:density_limit": {
+          "underground": 3
+        },
+        "minecraft:herd": {
+          "min_size": 1,
+          "max_size": 1
+        },
+        "minecraft:biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "overworld"
+        }
+      }
+    ]
+  }
+}

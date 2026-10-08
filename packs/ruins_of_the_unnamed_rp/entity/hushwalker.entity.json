@@ -1,0 +1,44 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "rotu:hushwalker",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "v0": "textures/rotu/entity/hushwalker_0",
+        "v1": "textures/rotu/entity/hushwalker_1",
+        "v2": "textures/rotu/entity/hushwalker_2",
+        "eyes": "textures/rotu/entity/hushwalker_eyes"
+      },
+      "geometry": {
+        "default": "geometry.rotu.hushwalker"
+      },
+      "animations": {
+        "look": "animation.rotu.hushwalker.look",
+        "move": "animation.rotu.hushwalker.move",
+        "idle": "animation.rotu.hushwalker.idle",
+        "attack": "animation.rotu.hushwalker.attack"
+      },
+      "scripts": {
+        "animate": [
+          "look",
+          "move",
+          "idle",
+          {
+            "attack": "variable.attack_time > 0.0"
+          }
+        ]
+      },
+      "render_controllers": [
+        "controller.render.rotu.hushwalker",
+        "controller.render.rotu.hushwalker_eyes"
+      ],
+      "spawn_egg": {
+        "base_color": "#2b2733",
+        "overlay_color": "#9be9de"
+      }
+    }
+  }
+}

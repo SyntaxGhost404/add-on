@@ -1,0 +1,63 @@
+{
+  "format_version": "1.21.40",
+  "rotu:gloamstone_bricks": {
+    "sound": "deepslate_bricks"
+  },
+  "rotu:cracked_gloamstone_bricks": {
+    "sound": "deepslate_bricks"
+  },
+  "rotu:mossy_gloamstone_bricks": {
+    "sound": "deepslate_bricks"
+  },
+  "rotu:gloamstone_tiles": {
+    "sound": "deepslate_bricks"
+  },
+  "rotu:gilded_gloamstone": {
+    "sound": "deepslate_bricks"
+  },
+  "rotu:chiseled_gloamstone": {
+    "sound": "deepslate_bricks"
+  },
+  "rotu:gloamstone_pillar": {
+    "sound": "deepslate_bricks"
+  },
+  "rotu:glyph_mural": {
+    "sound": "deepslate_bricks"
+  },
+  "rotu:cipher_stone": {
+    "sound": "deepslate_bricks"
+  },
+  "rotu:singing_stone": {
+    "sound": "amethyst_block"
+  },
+  "rotu:choir_lantern": {
+    "sound": "lantern"
+  },
+  "rotu:glyph_dial": {
+    "sound": "deepslate_bricks"
+  },
+  "rotu:sealed_gate": {
+    "sound": "deepslate_bricks"
+  },
+  "rotu:sigil_lock": {
+    "sound": "vault"
+  },
+  "rotu:veilstone": {
+    "sound": "deepslate_bricks"
+  },
+  "rotu:hushing_plate": {
+    "sound": "stone"
+  },
+  "rotu:funerary_urn": {
+    "sound": "decorated_pot"
+  },
+  "rotu:scriptorium_desk": {
+    "sound": "wood"
+  },
+  "rotu:reliquary": {
+    "sound": "vault"
+  },
+  "rotu:spawn_marker": {
+    "sound": "stone"
+  }
+}

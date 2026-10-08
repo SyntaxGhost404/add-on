@@ -1,0 +1,65 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:template_pool": {
+    "description": {
+      "identifier": "rotu:ossuary_corridors"
+    },
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "rotu/ossuary_straight",
+          "projection": "rigid",
+          "processors": "rotu:crypt_decay"
+        },
+        "weight": 6
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "rotu/ossuary_turn",
+          "projection": "rigid",
+          "processors": "rotu:crypt_decay"
+        },
+        "weight": 3
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "rotu/ossuary_tee",
+          "projection": "rigid",
+          "processors": "rotu:crypt_decay"
+        },
+        "weight": 3
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "rotu/ossuary_crypt",
+          "projection": "rigid",
+          "processors": "rotu:crypt_decay"
+        },
+        "weight": 3
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "rotu/ossuary_crypt_reliquary",
+          "projection": "rigid",
+          "processors": "rotu:crypt_decay"
+        },
+        "weight": 2
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "rotu/ossuary_crypt_spawner",
+          "projection": "rigid",
+          "processors": "rotu:crypt_decay"
+        },
+        "weight": 2
+      }
+    ],
+    "fallback": "rotu:ossuary_caps"
+  }
+}

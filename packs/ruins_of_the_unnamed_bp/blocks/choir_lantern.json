@@ -1,0 +1,56 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "rotu:choir_lantern",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.5
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 6
+      },
+      "minecraft:map_color": "#7fd8cf",
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "rotu:choir_lantern",
+          "render_method": "opaque"
+        },
+        "north": {
+          "texture": "rotu:choir_lantern",
+          "render_method": "opaque"
+        },
+        "south": {
+          "texture": "rotu:choir_lantern",
+          "render_method": "opaque"
+        },
+        "east": {
+          "texture": "rotu:choir_lantern",
+          "render_method": "opaque"
+        },
+        "west": {
+          "texture": "rotu:choir_lantern",
+          "render_method": "opaque"
+        },
+        "up": {
+          "texture": "rotu:choir_lantern_top",
+          "render_method": "opaque"
+        },
+        "down": {
+          "texture": "rotu:choir_lantern_top",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible",
+        "rotu:gloamstone"
+      ],
+      "minecraft:light_emission": 15
+    }
+  }
+}

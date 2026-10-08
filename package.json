@@ -1,0 +1,16 @@
+{
+  "name": "ruins-of-the-unnamed",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minecraft Bedrock add-on: Ruins of the Unnamed (build tooling and script type-checking)",
+  "scripts": {
+    "build": "python3 tools/build.py",
+    "check": "tsc -p tsconfig.json",
+    "validate": "python3 tools/validate.py"
+  },
+  "devDependencies": {
+    "@minecraft/server": "2.10.0",
+    "@minecraft/server-ui": "2.2.0",
+    "typescript": "^5.9.3"
+  }
+}

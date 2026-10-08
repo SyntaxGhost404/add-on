@@ -1,0 +1,46 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:template_pool": {
+    "description": {
+      "identifier": "rotu:waystone_start"
+    },
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "rotu/waystone_tall",
+          "projection": "rigid",
+          "processors": "rotu:weathering"
+        },
+        "weight": 3
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "rotu/waystone_broken",
+          "projection": "rigid",
+          "processors": "rotu:weathering"
+        },
+        "weight": 3
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "rotu/waystone_twin",
+          "projection": "rigid",
+          "processors": "rotu:weathering"
+        },
+        "weight": 2
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "rotu/waystone_ring",
+          "projection": "rigid",
+          "processors": "rotu:weathering"
+        },
+        "weight": 2
+      }
+    ]
+  }
+}

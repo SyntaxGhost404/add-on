@@ -1,0 +1,28 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rotu:reliquary_key",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "rotu:reliquary_key"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.rotu:reliquary_key.name"
+      },
+      "minecraft:max_stack_size": 16,
+      "minecraft:rarity": "uncommon",
+      "minecraft:tags": {
+        "tags": [
+          "rotu:key"
+        ]
+      }
+    }
+  }
+}

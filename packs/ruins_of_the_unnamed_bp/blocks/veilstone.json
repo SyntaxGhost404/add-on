@@ -1,0 +1,56 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "rotu:veilstone",
+      "menu_category": {
+        "category": "construction"
+      },
+      "states": {
+        "rotu:revealed": [
+          false,
+          true
+        ]
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 4.0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 6
+      },
+      "minecraft:map_color": "#3b3848",
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "rotu:gloamstone_bricks",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:tags": [
+        "minecraft:is_pickaxe_item_destructible",
+        "rotu:gloamstone"
+      ],
+      "minecraft:loot": "loot_tables/rotu/blocks/empty.json",
+      "minecraft:light_dampening": 15,
+      "rotu:veilstone": {}
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('rotu:revealed')",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "rotu:veilstone_revealed",
+              "render_method": "alpha_test"
+            }
+          },
+          "minecraft:collision_box": false,
+          "minecraft:light_dampening": 0,
+          "minecraft:light_emission": 4
+        }
+      }
+    ]
+  }
+}

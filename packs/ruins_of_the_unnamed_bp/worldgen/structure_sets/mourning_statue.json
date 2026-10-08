@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:structure_set": {
+    "description": {
+      "identifier": "rotu:mourning_statue"
+    },
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 381904211,
+      "spacing": 14,
+      "separation": 5,
+      "spread_type": "linear"
+    },
+    "structures": [
+      {
+        "structure": "rotu:mourning_statue",
+        "weight": 1
+      }
+    ]
+  }
+}

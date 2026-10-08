@@ -1,0 +1,28 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rotu:lantern_shard",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "rotu:lantern_shard"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.rotu:lantern_shard.name"
+      },
+      "minecraft:max_stack_size": 16,
+      "minecraft:rarity": "rare",
+      "minecraft:tags": {
+        "tags": [
+          "rotu:sigil_shard"
+        ]
+      }
+    }
+  }
+}

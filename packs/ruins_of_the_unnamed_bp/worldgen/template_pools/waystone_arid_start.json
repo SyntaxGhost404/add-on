@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:template_pool": {
+    "description": {
+      "identifier": "rotu:waystone_arid_start"
+    },
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "rotu/waystone_tall_arid",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "rotu/waystone_broken_arid",
+          "projection": "rigid"
+        },
+        "weight": 1
+      }
+    ]
+  }
+}

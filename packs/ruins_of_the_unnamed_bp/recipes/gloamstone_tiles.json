@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rotu:gloamstone_tiles"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BB",
+      "BB"
+    ],
+    "key": {
+      "B": {
+        "item": "rotu:gloamstone_bricks"
+      }
+    },
+    "unlock": [
+      {
+        "item": "rotu:gloamstone_bricks"
+      }
+    ],
+    "result": {
+      "item": "rotu:gloamstone_tiles",
+      "count": 4
+    }
+  }
+}

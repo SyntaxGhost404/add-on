@@ -1,0 +1,39 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rotu:diviners_lens"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "CGC",
+      "CAC",
+      " S "
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:copper_ingot"
+      },
+      "G": {
+        "item": "rotu:glyph_shard"
+      },
+      "A": {
+        "item": "minecraft:amethyst_shard"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "unlock": [
+      {
+        "item": "rotu:glyph_shard"
+      }
+    ],
+    "result": {
+      "item": "rotu:diviners_lens",
+      "count": 1
+    }
+  }
+}

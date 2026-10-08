@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "rotu:murmur",
+      "materials": {
+        "default": "entity_alphablend"
+      },
+      "textures": {
+        "default": "textures/rotu/entity/murmur"
+      },
+      "geometry": {
+        "default": "geometry.rotu.murmur"
+      },
+      "animations": {
+        "look": "animation.rotu.murmur.look",
+        "float": "animation.rotu.murmur.float",
+        "charge": "animation.rotu.murmur.charge"
+      },
+      "scripts": {
+        "animate": [
+          "look",
+          "float",
+          {
+            "charge": "query.is_charging"
+          }
+        ]
+      },
+      "render_controllers": [
+        "controller.render.rotu.murmur"
+      ],
+      "spawn_egg": {
+        "base_color": "#6fb3ad",
+        "overlay_color": "#e5fbf7"
+      },
+      "particle_effects": {
+        "trail": "rotu:murmur_trail"
+      }
+    }
+  }
+}

@@ -533,6 +533,10 @@ def sanctum_choir(seed=704):
     for x in (9, 13):
         for y in range(1, 6):
             b.set(x, y, 1, pillar())
+    # keep both doorways flush: no stall step in front of the entrance or the vault door
+    for x in (10, 11, 12):
+        for z in (2, W - 3):
+            b.set(x, 1, z, AIR)
     entry_jig(b, 11, 1, W - 1)
     exit_jig(b, 11, 1, 0, 'north', 'rotu:sanctum_vault')
     b.ceiling_webs(3, 10, 3, 19, 19, 6)

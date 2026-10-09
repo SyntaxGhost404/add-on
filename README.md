@@ -162,8 +162,18 @@ The packs are generated from the sources in `tools/` and `scripts/`. The build i
 python3 tools/build.py            # writes packs/ and dist/*.mcaddon (needs Python 3.10+, numpy, Pillow, ffmpeg)
 python3 tools/validate.py --samples /path/to/bedrock-samples   # schema + cross-reference checks
 npm install && npx tsc -p tsconfig.json                          # strict type-check of the scripts
+npm test                                                         # headless gameplay smoke test (Node 22+)
+python3 tools/tests/test_walkability.py                          # every structure doorway is reachable on foot
 python3 tools/tests/test_nbt.py [dirs with .mcstructure files]   # NBT writer tests
+python3 tools/preview_structures.py OUT_DIR                      # isometric previews of all structure pieces
 ```
+
+`npm test` runs the real scripts against a small in-memory mock of the Script API
+(`tools/tests/mock/`). It plays through every mechanic: the dial puzzle, reliquaries, the
+scriptorium, traps, spawn markers, tools and relics, the boss fight and the codex. The walkability
+test walks a simulated player through each structure piece. It confirms that every jigsaw doorway
+(and the surface entrance of each tower) is reachable, and that the puzzle gates are the only way
+past them.
 
 `validate.py` always runs its self-contained checks: textures, models, loot tables, sounds,
 particles, jigsaw connections, structure block states, lang keys, custom components and script
@@ -179,6 +189,7 @@ generated schemas contain a few known defects that vanilla's own files also fail
 | `tools/structures/` | Procedural builders for every structure piece |
 | `tools/art/` | Pixel-art texture painters, block/entity models, sound synthesis |
 | `tools/lib/` | `.mcstructure` NBT writer, image helpers |
+| `tools/tests/` | Smoke test (with Script API mock), walkability and NBT tests |
 | `packs/` | Generated behavior pack and resource pack |
 | `dist/` | Packaged `.mcaddon` / `.mcpack` files |
 | `docs/DESIGN.md` | Design document |

@@ -111,6 +111,18 @@ def rp_file_exists(path_no_ext, exts=('.png', '.tga')):
 
 
 # ---------------------------------------------------------------------------- checks
+def check_build_fresh():
+    """The packaged scripts must be byte-identical to scripts/ (catches a stale build)."""
+    src = {os.path.basename(p) for p in files(SCRIPTS, '*.js')}
+    packed = {os.path.basename(p) for p in files(os.path.join(BP, 'scripts'), '*.js')}
+    for name in sorted(src ^ packed):
+        err(f'scripts/{name}: present in only one of scripts/ and the packaged behavior pack (rebuild)')
+    for name in sorted(src & packed):
+        with open(os.path.join(SCRIPTS, name), 'rb') as a, open(os.path.join(BP, 'scripts', name), 'rb') as b:
+            if a.read() != b.read():
+                err(f'scripts/{name}: packaged copy is stale (run tools/build.py)')
+
+
 def check_manifests():
     bp, rp = load(os.path.join(BP, 'manifest.json')), load(os.path.join(RP, 'manifest.json'))
     if not any(d.get('uuid') == rp['header']['uuid'] for d in bp.get('dependencies', [])):
@@ -604,6 +616,7 @@ def main():
     else:
         warn('no --samples given: schema and vanilla-identifier checks skipped')
 
+    check_build_fresh()
     check_manifests()
     check_blocks(P)
     check_block_states(P)

@@ -148,7 +148,8 @@ export function countItem(player, typeId) {
 }
 
 /**
- * Locations of blocks of the given types inside a box around a point (empty array on any failure).
+ * Locations of blocks of the given types inside a box around a point. Parts of the box in unloaded
+ * chunks are skipped; returns an empty array on any other failure.
  * @param {Dimension} dim @param {Vector3} c @param {number} rx @param {number} ry @param {number} rz @param {string[]} types
  * @returns {Vector3[]}
  */
@@ -159,7 +160,7 @@ export function findBlocks(dim, c, rx, ry, rz, types) {
   const to = { x: Math.floor(c.x + rx), y: Math.min(hi, Math.floor(c.y + ry)), z: Math.floor(c.z + rz) };
   if (from.y > to.y) return [];
   try {
-    const volume = dim.getBlocks(new BlockVolume(from, to), { includeTypes: types }, false);
+    const volume = dim.getBlocks(new BlockVolume(from, to), { includeTypes: types }, true);
     return [...volume.getBlockLocationIterator()];
   } catch {
     return [];

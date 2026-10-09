@@ -257,14 +257,25 @@ def dirge_blade():
 
 def sentinels_maul():
     c = Canvas(S, S)
-    thick_line(c, 2, 14, 9, 7, lambda x, y, t: WOOD[2] if (x + y) % 2 else WOOD[3], 1)
+    thick_line(c, 1, 15, 8, 8, lambda x, y, t: WOOD[2] if (x + y) % 2 else WOOD[3], 1)
+    # a heavy gloamstone head set across the haft
     n = value_noise(S, S, 3, 260, 2)
-    pts = [(7, 3), (11, 0), (15, 4), (11, 8)]
-    poly_fill(c, pts, lambda x, y: ramp(GLOAM, 0.35 + n[y, x] * 0.4))
-    for (x, y) in ((11, 3), (11, 4), (10, 4), (12, 4)):
-        c.px(x, y, STAR[3])
-    c.px(8, 6, GOLD[3])
-    c.px(9, 6, GOLD[2])
+    cx, cy = 11.0, 5.0
+    u, v = (0.7071, 0.7071), (0.7071, -0.7071)
+    pts = [(cx + a * 4.6 * u[0] + b * 2.7 * v[0], cy + a * 4.6 * u[1] + b * 2.7 * v[1])
+           for a, b in ((1, 1), (1, -1), (-1, -1), (-1, 1))]
+    poly_fill(c, pts, lambda x, y: ramp(GLOAM, 0.62 + n[y, x] * 0.3))
+    for (x, y) in ((8, 2), (9, 1), (10, 1), (7, 3), (6, 4), (11, 1)):
+        if c.get(x, y)[3]:
+            c.px(x, y, ramp(GLOAM, 1.0))           # lit upper edge
+    for (x, y) in ((12, 9), (13, 8), (14, 7), (15, 6)):
+        if c.get(x, y)[3]:
+            c.px(x, y, ramp(GLOAM, 0.3))           # shadowed lower edge
+    for (x, y) in ((11, 4), (11, 5), (10, 5), (12, 5), (11, 6)):
+        c.px(x, y, STAR[3])                        # the Hush sigil carved into the face
+    c.px(11, 5, STAR[5])
+    c.px(8, 8, GOLD[3])
+    c.px(7, 9, GOLD[2])
     return finish(c)
 
 

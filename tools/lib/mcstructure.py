@@ -222,7 +222,8 @@ def be_simple(kind):
     return Compound({'id': String(kind), 'isMovable': Byte(1)})
 
 
-def be_jigsaw(name, target='minecraft:empty', pool='minecraft:empty', final_state='minecraft:air', joint='aligned'):
+def be_jigsaw(name, target='minecraft:empty', pool='minecraft:empty', final_state='minecraft:air', joint='aligned',
+              selection_priority=0):
     return Compound({
         'final_state': String(final_state),
         'id': String('JigsawBlock'),
@@ -230,7 +231,7 @@ def be_jigsaw(name, target='minecraft:empty', pool='minecraft:empty', final_stat
         'joint': String(joint),
         'name': String(name),
         'placement_priority': Int(0),
-        'selection_priority': Int(0),
+        'selection_priority': Int(selection_priority),
         'target': String(target),
         'target_pool': String(pool),
     })
@@ -316,9 +317,9 @@ class Structure:
                     self.cells[pos] = nb
 
     def jigsaw(self, x, y, z, facing, name, target='minecraft:empty', pool='minecraft:empty',
-               final_state='minecraft:air', joint='aligned', rotation=0):
+               final_state='minecraft:air', joint='aligned', rotation=0, selection_priority=0):
         self.set(x, y, z, B('jigsaw', facing_direction=FACING[facing], rotation=rotation),
-                 be_jigsaw(name, target, pool, final_state, joint))
+                 be_jigsaw(name, target, pool, final_state, joint, selection_priority))
 
     # -- connection post-processing ------------------------------------
     def _connects_wall(self, name):

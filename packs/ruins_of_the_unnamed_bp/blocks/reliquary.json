@@ -58,6 +58,9 @@
         ],
         "looping": true
       },
+      "minecraft:movable": {
+        "movement_type": "immovable"
+      },
       "rotu:reliquary": {}
     },
     "permutations": [

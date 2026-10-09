@@ -47,6 +47,8 @@ def statue_lantern(seed=102):
     b.set(3, 2, 2, B('polished_deepslate_wall'))
     b.set(0, 1, 3, candle(2))
     b.set(4, 1, 1, candle(1))
+    # an offering buried at the statue's feet
+    b.suspicious(3, 0, 0, 'archaeology/waystone')
     return b.finish()
 
 

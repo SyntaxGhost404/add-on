@@ -17,8 +17,8 @@ PB_WALL = 'minecraft:polished_blackstone_brick_wall'
 RING = [(-1, -1), (0, -1), (1, -1), (1, 0), (1, 1), (0, 1), (-1, 1), (-1, 0)]
 
 
-def exit_jig(b, x, y, z, facing, pool):
-    b.jigsaw(x, y, z, facing, 'rotu:exit', ENTRY, pool)
+def exit_jig(b, x, y, z, facing, pool, priority=0):
+    b.jigsaw(x, y, z, facing, 'rotu:exit', ENTRY, pool, priority=priority)
 
 
 def entry_jig(b, x, y, z):
@@ -145,7 +145,8 @@ def ossuary_hub(seed=602):
     doorway(b, 0, 1, 5, axis='z')
     doorway(b, 10, 1, 5, axis='z')
     entry_jig(b, 5, 1, 10)
-    exit_jig(b, 5, 1, 0, 'north', 'rotu:ossuary_bone_choir')
+    # the Bone Choir holds a guaranteed sigil shard: claim its space before the corridors branch out
+    exit_jig(b, 5, 1, 0, 'north', 'rotu:ossuary_bone_choir', priority=1)
     exit_jig(b, 0, 1, 5, 'west', 'rotu:ossuary_corridors')
     exit_jig(b, 10, 1, 5, 'east', 'rotu:ossuary_corridors')
     b.set(1, 2, 1, mural(2))

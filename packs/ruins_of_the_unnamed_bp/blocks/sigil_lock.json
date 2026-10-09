@@ -48,6 +48,9 @@
           "render_method": "opaque"
         }
       },
+      "minecraft:movable": {
+        "movement_type": "immovable"
+      },
       "rotu:sigil_lock": {}
     },
     "permutations": [

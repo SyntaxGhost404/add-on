@@ -37,6 +37,9 @@
         ],
         "looping": true
       },
+      "minecraft:movable": {
+        "movement_type": "immovable"
+      },
       "rotu:spawn_marker": {}
     }
   }

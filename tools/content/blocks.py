@@ -7,6 +7,9 @@ TEX = 'textures/rotu/blocks/'
 PICKAXE = 'minecraft:is_pickaxe_item_destructible'
 AXE = 'minecraft:is_axe_item_destructible'
 UNBREAKABLE_RESIST = 3600000
+# Puzzle and reward blocks must not be shoved by pistons: reliquary claims are stored per block
+# position, and a moved gate or dial would let players skip a puzzle.
+IMMOVABLE = {'movement_type': 'immovable'}
 
 BLOCK_IDS = []
 
@@ -150,6 +153,7 @@ def define_blocks():
     c = stone_components(four_sides(f'{NS}:glyph_dial_0', dial_top), tags=())
     c['minecraft:destructible_by_mining'] = False
     c['minecraft:destructible_by_explosion'] = False
+    c['minecraft:movable'] = IMMOVABLE
     c['rotu:glyph_dial'] = {}
     block('glyph_dial', 'Glyph Dial', c,
           states={'rotu:glyph': [0, 1, 2, 3], 'rotu:solution': [0, 1, 2, 3]}, permutations=perms)
@@ -158,12 +162,14 @@ def define_blocks():
     c['minecraft:destructible_by_mining'] = False
     c['minecraft:destructible_by_explosion'] = False
     c['minecraft:map_color'] = '#2a2733'
+    c['minecraft:movable'] = IMMOVABLE
     block('sealed_gate', 'Sealed Gate', c)
 
     lock_on = tex('sigil_lock_on')
     c = stone_components(four_sides(tex('sigil_lock'), f'{NS}:sealed_gate_top'), tags=())
     c['minecraft:destructible_by_mining'] = False
     c['minecraft:destructible_by_explosion'] = False
+    c['minecraft:movable'] = IMMOVABLE
     c['rotu:sigil_lock'] = {}
     block('sigil_lock', 'Sigil Lock', c, states={'rotu:unlocked': [False, True]},
           permutations=[{'condition': "q.block_state('rotu:unlocked')",
@@ -266,6 +272,7 @@ def define_blocks():
         'minecraft:map_color': '#4a4258',
         'minecraft:loot': 'loot_tables/rotu/blocks/empty.json',
         'minecraft:tick': {'interval_range': [40, 60], 'looping': True},
+        'minecraft:movable': IMMOVABLE,
         'rotu:reliquary': {},
     }
     block('reliquary', 'Reliquary', c, category='items', states={'rotu:tier': ['lesser', 'grand']},
@@ -285,6 +292,7 @@ def define_blocks():
         'minecraft:light_dampening': 0,
         'minecraft:loot': 'loot_tables/rotu/blocks/empty.json',
         'minecraft:tick': {'interval_range': [20, 30], 'looping': True},
+        'minecraft:movable': IMMOVABLE,
         'rotu:spawn_marker': {},
     }
     block('spawn_marker', 'Restless Remains', c, hidden=True,

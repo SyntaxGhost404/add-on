@@ -41,6 +41,9 @@
           "texture": "rotu:sealed_gate_top",
           "render_method": "opaque"
         }
+      },
+      "minecraft:movable": {
+        "movement_type": "immovable"
       }
     }
   }

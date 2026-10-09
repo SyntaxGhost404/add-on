@@ -270,8 +270,9 @@ class Builder:
         self.set(x, y, z, B('soul_campfire' if soul else 'campfire', extinguished=not lit,
                             minecraft__cardinal_direction=facing), be_campfire())
 
-    def jigsaw(self, x, y, z, facing, name, target='minecraft:empty', pool='minecraft:empty', final='minecraft:air'):
-        self.s.jigsaw(x, y, z, facing, name, target, pool, final)
+    def jigsaw(self, x, y, z, facing, name, target='minecraft:empty', pool='minecraft:empty', final='minecraft:air',
+               priority=0):
+        self.s.jigsaw(x, y, z, facing, name, target, pool, final, selection_priority=priority)
 
     def finish(self):
         self.s.autoconnect()

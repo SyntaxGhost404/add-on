@@ -554,6 +554,38 @@ def schema_validate(samples):
           f'({artifacts} findings explained by known schema defects that vanilla files share)')
 
 
+COMPONENT_SCHEMAS = {
+    'minecraft:entity': ('server/entity/1.26.50/Entity component definitions.json', 'entities'),
+    'minecraft:block': ('server/block/1.26.20/Components.json', 'blocks'),
+    'minecraft:item': ('server/item/1.26.30/Item Components.json', 'items'),
+}
+
+
+def _component_keys(body):
+    keys = set(body.get('components', {}))
+    for group in body.get('component_groups', {}).values():
+        keys.update(group)
+    for perm in body.get('permutations', []):
+        keys.update(perm.get('components', {}))
+    return keys
+
+
+def check_component_names(samples):
+    """Unknown component names are ignored by the game, so a typo would silently do nothing."""
+    base = os.path.join(samples, 'metadata', 'json_schemas')
+    for root, (schema_rel, folder) in COMPONENT_SCHEMAS.items():
+        known = set(load(os.path.join(base, schema_rel)).get('properties', {}))
+        for vp in files(os.path.join(samples, 'behavior_pack', folder), '*.json'):
+            with open(vp, encoding='utf-8') as f:
+                vdoc = jsonc_loads(f.read())
+            if root in vdoc:
+                known |= _component_keys(vdoc[root])
+        for p in files(BP, f'{folder}/*.json'):
+            for k in sorted(_component_keys(load(p)[root])):
+                if k.startswith('minecraft:') and k not in known:
+                    err(f'{rel(p)}: unknown component {k}')
+
+
 def check_block_states(P):
     """Custom block states: at most 16 unique values of one type, permutations only reference real states."""
     for ident, body in P.blocks.items():
@@ -612,6 +644,7 @@ def main():
     if args.samples:
         vblocks, vitems, veffects, vsounds, vtags = vanilla_data(args.samples)
         schema_validate(args.samples)
+        check_component_names(args.samples)
         check_biome_tags(vtags)
     else:
         warn('no --samples given: schema and vanilla-identifier checks skipped')

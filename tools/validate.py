@@ -473,6 +473,7 @@ SCHEMA_TARGETS = [
     ('client_server/world/1.21.20/Structure Set.json', 'worldgen/structure_sets/*.json', 'minecraft:structure_set', None),
     ('client_server/world/1.21.20/Processor List.json', 'worldgen/processors/*.json', 'minecraft:processor_list', None),
     ('server/world/1.21.20/Template Pool.json', 'worldgen/template_pools/*.json', 'minecraft:template_pool', None),
+    ('client/particles/1.21.10/Particle Effect Data.json', 'RP:particles/*.json', 'particle_effect', None),
 ]
 
 
@@ -538,7 +539,8 @@ def schema_validate(samples):
                     vdoc = jsonc_loads(f.read())
                 if key in vdoc:
                     control |= _signatures(validator.iter_errors(vdoc[key]))
-        for p in files(BP, pattern):
+        pack, pattern = (RP, pattern[3:]) if pattern.startswith('RP:') else (BP, pattern)
+        for p in files(pack, pattern):
             doc = load(p)[key]
             for e in validator.iter_errors(doc):
                 if _overlap_only(e) or _sig(e) in control or (key == 'minecraft:block' and _custom_state_form(e, doc)):
@@ -584,6 +586,20 @@ def check_component_names(samples):
             for k in sorted(_component_keys(load(p)[root])):
                 if k.startswith('minecraft:') and k not in known:
                     err(f'{rel(p)}: unknown component {k}')
+
+
+def check_molang_names(samples):
+    """Every query.* / q.* / math.* name in both packs must exist in Mojang's Molang registry."""
+    d = load(os.path.join(samples, 'metadata', 'molang_modules', 'mojang-molang-queries.json'))
+    known = {e['name'] if e['name'].startswith('query.') else 'query.' + e['name'] for e in d['queries']}
+    known |= {e['name'] if e['name'].startswith('math.') else 'math.' + e['name'] for e in d['math_functions']}
+    for p in files(BP, '**/*.json') + files(RP, '**/*.json'):
+        with open(p, encoding='utf-8') as f:
+            text = f.read()
+        for prefix, name in set(re.findall(r'\b(q|query|math)\.([a-z_0-9]+)', text)):
+            full = ('math.' if prefix == 'math' else 'query.') + name
+            if full not in known:
+                err(f'{rel(p)}: unknown Molang name {full}')
 
 
 def check_block_states(P):
@@ -645,6 +661,7 @@ def main():
         vblocks, vitems, veffects, vsounds, vtags = vanilla_data(args.samples)
         schema_validate(args.samples)
         check_component_names(args.samples)
+        check_molang_names(args.samples)
         check_biome_tags(vtags)
     else:
         warn('no --samples given: schema and vanilla-identifier checks skipped')

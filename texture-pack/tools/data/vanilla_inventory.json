@@ -1,0 +1,10886 @@
+{
+ "textures/blocks/acacia_shelf": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 32,
+  "w": 32
+ },
+ "textures/blocks/acacia_trapdoor": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/amethyst_block": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/amethyst_cluster": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/ancient_debris_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/ancient_debris_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/angler_pottery_pattern": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/anvil_base": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/anvil_top_damaged_0": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/anvil_top_damaged_1": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/anvil_top_damaged_2": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/archer_pottery_pattern": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/arms_up_pottery_pattern": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/azalea_leaves": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/azalea_leaves_flowers": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/azalea_leaves_flowers_opaque": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/azalea_leaves_opaque": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/azalea_plant": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/azalea_side": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/azalea_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bamboo_block": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bamboo_block_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bamboo_door_bottom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bamboo_door_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bamboo_fence": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bamboo_fence_gate": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bamboo_leaf": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bamboo_mosaic": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bamboo_planks": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bamboo_sapling": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bamboo_shelf": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 32,
+  "w": 32
+ },
+ "textures/blocks/bamboo_singleleaf": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bamboo_small_leaf": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bamboo_stem": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bamboo_trapdoor": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/barrel_bottom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/barrel_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/barrel_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/barrel_top_open": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/barrier": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/basalt_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/basalt_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/beacon": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bed_feet_end": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bed_feet_side": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bed_feet_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bed_head_end": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bed_head_side": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bed_head_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bedrock": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bee_nest_bottom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bee_nest_front": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bee_nest_front_honey": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bee_nest_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bee_nest_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/beehive_front": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/beehive_front_honey": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/beehive_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/beehive_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/beetroots_stage_0": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/beetroots_stage_1": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/beetroots_stage_2": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/beetroots_stage_3": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bell_bottom": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bell_side": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bell_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/big_dripleaf_side1": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/big_dripleaf_side2": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/big_dripleaf_stem": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/big_dripleaf_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/birch_shelf": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 32,
+  "w": 32
+ },
+ "textures/blocks/birch_trapdoor": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/blackstone": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/blackstone_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/blade_pottery_pattern": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/blast_furnace_front_off": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/blast_furnace_front_on": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 2,
+  "grey": false,
+  "h": 32,
+  "w": 16
+ },
+ "textures/blocks/blast_furnace_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/blast_furnace_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/blue_ice": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bone_block_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bone_block_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bookshelf": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/border": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/brewer_pottery_pattern": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/brewing_stand": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/brewing_stand_base": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/brick": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bubble_column_down_top_a": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 21,
+  "grey": false,
+  "h": 336,
+  "w": 16
+ },
+ "textures/blocks/bubble_column_down_top_b": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 21,
+  "grey": false,
+  "h": 336,
+  "w": 16
+ },
+ "textures/blocks/bubble_column_down_top_c": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 21,
+  "grey": false,
+  "h": 336,
+  "w": 16
+ },
+ "textures/blocks/bubble_column_down_top_d": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 21,
+  "grey": false,
+  "h": 336,
+  "w": 16
+ },
+ "textures/blocks/bubble_column_inner_a": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 32,
+  "grey": false,
+  "h": 512,
+  "w": 16
+ },
+ "textures/blocks/bubble_column_inner_b": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 32,
+  "grey": false,
+  "h": 512,
+  "w": 16
+ },
+ "textures/blocks/bubble_column_outer_a": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 32,
+  "grey": false,
+  "h": 1024,
+  "w": 32
+ },
+ "textures/blocks/bubble_column_outer_b": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 32,
+  "grey": false,
+  "h": 1024,
+  "w": 32
+ },
+ "textures/blocks/bubble_column_outer_c": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 32,
+  "grey": false,
+  "h": 1024,
+  "w": 32
+ },
+ "textures/blocks/bubble_column_outer_d": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 32,
+  "grey": false,
+  "h": 1024,
+  "w": 32
+ },
+ "textures/blocks/bubble_column_outer_e": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 32,
+  "grey": false,
+  "h": 1024,
+  "w": 32
+ },
+ "textures/blocks/bubble_column_outer_f": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 32,
+  "grey": false,
+  "h": 1024,
+  "w": 32
+ },
+ "textures/blocks/bubble_column_outer_g": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 32,
+  "grey": false,
+  "h": 1024,
+  "w": 32
+ },
+ "textures/blocks/bubble_column_outer_h": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 32,
+  "grey": false,
+  "h": 1024,
+  "w": 32
+ },
+ "textures/blocks/bubble_column_up_top_a": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 12,
+  "grey": false,
+  "h": 192,
+  "w": 16
+ },
+ "textures/blocks/bubble_column_up_top_b": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 12,
+  "grey": false,
+  "h": 192,
+  "w": 16
+ },
+ "textures/blocks/bubble_column_up_top_c": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 12,
+  "grey": false,
+  "h": 192,
+  "w": 16
+ },
+ "textures/blocks/bubble_column_up_top_d": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 12,
+  "grey": false,
+  "h": 192,
+  "w": 16
+ },
+ "textures/blocks/budding_amethyst": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/build_allow": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/build_deny": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/burn_pottery_pattern": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/bush": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cactus_bottom": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cactus_flower": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cactus_side": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cactus_top": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cake_bottom": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cake_inner": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cake_side": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cake_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/calcite": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/calibrated_sculk_sensor_amethyst": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/calibrated_sculk_sensor_input_side": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/calibrated_sculk_sensor_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/camera_back": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/camera_front": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/camera_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/camera_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/campfire": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 8,
+  "grey": false,
+  "h": 128,
+  "w": 16
+ },
+ "textures/blocks/campfire_log": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/campfire_log_lit": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 4,
+  "grey": false,
+  "h": 64,
+  "w": 16
+ },
+ "textures/blocks/candles/black_candle": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/black_candle_lit": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/blue_candle": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/blue_candle_lit": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/brown_candle": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/brown_candle_lit": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/candle": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/candle_lit": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/cyan_candle": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/cyan_candle_lit": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/gray_candle": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/gray_candle_lit": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/green_candle": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/green_candle_lit": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/light_blue_candle": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/light_blue_candle_lit": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/light_gray_candle": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/light_gray_candle_lit": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/lime_candle": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/lime_candle_lit": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/magenta_candle": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/magenta_candle_lit": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/orange_candle": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/orange_candle_lit": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/pink_candle": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/pink_candle_lit": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/purple_candle": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/purple_candle_lit": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/red_candle": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/red_candle_lit": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/white_candle": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/white_candle_lit": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/yellow_candle": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/candles/yellow_candle_lit": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/carried_waterlily": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/carrots_stage3": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/carrots_stage_0": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/carrots_stage_1": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/carrots_stage_2": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/carrots_stage_3": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cartography_table_side1": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cartography_table_side2": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cartography_table_side3": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cartography_table_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cauldron_bottom": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cauldron_inner": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cauldron_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cauldron_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cauldron_water": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 32,
+  "grey": true,
+  "h": 512,
+  "w": 16
+ },
+ "textures/blocks/cauldron_water_placeholder": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cave_vines_body": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cave_vines_body_berries": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cave_vines_head": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cave_vines_head_berries": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/chain1": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/chain2": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/chain_command_block_back": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 4,
+  "grey": false,
+  "h": 64,
+  "w": 16
+ },
+ "textures/blocks/chain_command_block_back_mipmap": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/chain_command_block_conditional": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 4,
+  "grey": false,
+  "h": 64,
+  "w": 16
+ },
+ "textures/blocks/chain_command_block_conditional_mipmap": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/chain_command_block_front": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 4,
+  "grey": false,
+  "h": 64,
+  "w": 16
+ },
+ "textures/blocks/chain_command_block_front_mipmap": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/chain_command_block_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 4,
+  "grey": false,
+  "h": 64,
+  "w": 16
+ },
+ "textures/blocks/chain_command_block_side_mipmap": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cherry_door_bottom": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cherry_door_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cherry_leaves": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cherry_leaves_opaque": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cherry_log_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cherry_log_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cherry_planks": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cherry_sapling": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cherry_shelf": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 32,
+  "w": 32
+ },
+ "textures/blocks/cherry_trapdoor": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/chest_front": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/chest_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/chest_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/chiseled_bookshelf_empty": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/chiseled_bookshelf_occupied": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/chiseled_bookshelf_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/chiseled_bookshelf_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/chiseled_cinnabar": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/chiseled_copper": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/chiseled_nether_bricks": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/chiseled_polished_blackstone": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/chiseled_resin_bricks": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/chiseled_sulfur": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/chiseled_tuff": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/chiseled_tuff_bricks": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/chiseled_tuff_bricks_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/chiseled_tuff_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/chorus_flower": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/chorus_flower_dead": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/chorus_plant": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cinnabar": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cinnabar_bricks": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/clay": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coal_block": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coal_ore": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coarse_dirt": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cobblestone": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cobblestone_mossy": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cocoa_stage_0": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cocoa_stage_1": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cocoa_stage_2": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/command_block": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/command_block_back": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 4,
+  "grey": false,
+  "h": 64,
+  "w": 16
+ },
+ "textures/blocks/command_block_back_mipmap": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/command_block_conditional": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 4,
+  "grey": false,
+  "h": 64,
+  "w": 16
+ },
+ "textures/blocks/command_block_conditional_mipmap": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/command_block_front": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 4,
+  "grey": false,
+  "h": 64,
+  "w": 16
+ },
+ "textures/blocks/command_block_front_mipmap": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/command_block_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 4,
+  "grey": false,
+  "h": 64,
+  "w": 16
+ },
+ "textures/blocks/command_block_side_mipmap": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/comparator_off": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/comparator_on": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/compost": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/compost_ready": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/composter_bottom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/composter_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/composter_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_black": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_blue": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_brown": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_cyan": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_gray": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_green": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_light_blue": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_lime": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_magenta": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_orange": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_pink": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_powder_black": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_powder_blue": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_powder_brown": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_powder_cyan": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_powder_gray": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_powder_green": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_powder_light_blue": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_powder_lime": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_powder_magenta": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_powder_orange": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_powder_pink": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_powder_purple": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_powder_red": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_powder_silver": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_powder_white": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_powder_yellow": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_purple": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_red": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_silver": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_white": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/concrete_yellow": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/conduit_base": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 12,
+  "w": 24
+ },
+ "textures/blocks/conduit_cage": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 32
+ },
+ "textures/blocks/conduit_closed": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 8,
+  "w": 8
+ },
+ "textures/blocks/conduit_open": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 8,
+  "w": 8
+ },
+ "textures/blocks/conduit_wind_horizontal": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 11,
+  "grey": false,
+  "h": 704,
+  "w": 64
+ },
+ "textures/blocks/conduit_wind_vertical": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 11,
+  "grey": false,
+  "h": 704,
+  "w": 64
+ },
+ "textures/blocks/copper_bars": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/copper_block": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/copper_bulb": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/copper_bulb_lit": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/copper_bulb_lit_powered": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/copper_bulb_powered": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/copper_chain1": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/copper_chain2": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/copper_chest_inventory_front": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/copper_chest_inventory_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/copper_chest_inventory_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/copper_door_bottom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/copper_door_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/copper_grate": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/copper_lantern": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 3,
+  "grey": false,
+  "h": 48,
+  "w": 16
+ },
+ "textures/blocks/copper_ore": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/copper_torch": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/copper_trapdoor": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_blue": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_blue_dead": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_fan_blue": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_fan_blue_dead": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_fan_pink": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_fan_pink_dead": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_fan_purple": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_fan_purple_dead": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_fan_red": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_fan_red_dead": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_fan_yellow": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_fan_yellow_dead": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_pink": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_pink_dead": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_plant_blue": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_plant_blue_dead": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_plant_pink": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_plant_pink_dead": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_plant_purple": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_plant_purple_dead": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_plant_red": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_plant_red_dead": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_plant_yellow": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_plant_yellow_dead": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_purple": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_purple_dead": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_red": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_red_dead": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_yellow": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/coral_yellow_dead": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cracked_nether_bricks": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cracked_polished_blackstone_bricks": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/crafter_bottom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/crafter_east": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/crafter_east_crafting": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/crafter_east_triggered": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/crafter_north": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/crafter_north_crafting": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/crafter_south": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/crafter_south_triggered": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/crafter_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/crafter_top_crafting": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/crafter_top_triggered": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/crafter_west": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/crafter_west_crafting": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/crafter_west_triggered": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/crafting_table_front": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/crafting_table_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/crafting_table_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/creaking_heart_side_active": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/creaking_heart_side_dormant": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/creaking_heart_side_inactive": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/creaking_heart_top_active": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/creaking_heart_top_dormant": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/creaking_heart_top_inactive": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/crimson_fungus": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/crimson_nylium_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/crimson_nylium_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/crimson_roots": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/crimson_roots_pot": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/crimson_shelf": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 32,
+  "w": 32
+ },
+ "textures/blocks/crying_obsidian": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/cut_copper": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/danger_pottery_pattern": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dark_oak_shelf": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 32,
+  "w": 32
+ },
+ "textures/blocks/dark_oak_trapdoor": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/daylight_detector_inverted_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/daylight_detector_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/daylight_detector_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/deadbush": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/decorated_pot_base": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 32,
+  "w": 32
+ },
+ "textures/blocks/decorated_pot_side": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/deepslate/chiseled_deepslate": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/deepslate/cobbled_deepslate": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/deepslate/cracked_deepslate_bricks": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/deepslate/cracked_deepslate_tiles": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/deepslate/deepslate": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/deepslate/deepslate_bricks": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/deepslate/deepslate_coal_ore": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/deepslate/deepslate_copper_ore": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/deepslate/deepslate_diamond_ore": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/deepslate/deepslate_emerald_ore": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/deepslate/deepslate_gold_ore": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/deepslate/deepslate_iron_ore": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/deepslate/deepslate_lapis_ore": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/deepslate/deepslate_redstone_ore": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/deepslate/deepslate_tiles": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/deepslate/deepslate_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/deepslate/polished_deepslate": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/diamond_block": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/diamond_ore": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dirt": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dirt_podzol_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dirt_podzol_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dirt_with_roots": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dispenser_front_horizontal": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dispenser_front_vertical": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/door_acacia_lower": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/door_acacia_upper": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/door_birch_lower": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/door_birch_upper": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/door_dark_oak_lower": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/door_dark_oak_upper": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/door_iron_lower": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/door_iron_upper": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/door_jungle_lower": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/door_jungle_upper": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/door_spruce_lower": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/door_spruce_upper": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/door_wood_lower": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/door_wood_upper": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/double_plant_fern_bottom": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/double_plant_fern_carried": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/double_plant_fern_top": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/double_plant_grass_bottom": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/double_plant_grass_carried": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/double_plant_grass_top": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/double_plant_paeonia_bottom": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/double_plant_paeonia_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/double_plant_rose_bottom": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/double_plant_rose_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/double_plant_sunflower_back": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/double_plant_sunflower_bottom": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/double_plant_sunflower_front": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/double_plant_sunflower_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/double_plant_syringa_bottom": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/double_plant_syringa_top": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dragon_egg": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dried_ghast_state_1_back": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dried_ghast_state_1_bottom": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dried_ghast_state_1_front": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dried_ghast_state_1_left": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dried_ghast_state_1_right": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dried_ghast_state_1_tentacles": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 32,
+  "w": 32
+ },
+ "textures/blocks/dried_ghast_state_1_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dried_ghast_state_2_back": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dried_ghast_state_2_bottom": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dried_ghast_state_2_front": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dried_ghast_state_2_left": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dried_ghast_state_2_right": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dried_ghast_state_2_tentacles": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 32,
+  "w": 32
+ },
+ "textures/blocks/dried_ghast_state_2_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dried_ghast_state_3_back": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dried_ghast_state_3_bottom": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dried_ghast_state_3_front": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dried_ghast_state_3_left": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dried_ghast_state_3_right": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dried_ghast_state_3_tentacles": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 32,
+  "w": 32
+ },
+ "textures/blocks/dried_ghast_state_3_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dried_ghast_state_4_back": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dried_ghast_state_4_bottom": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dried_ghast_state_4_front": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dried_ghast_state_4_left": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dried_ghast_state_4_right": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dried_ghast_state_4_tentacles": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 32,
+  "w": 32
+ },
+ "textures/blocks/dried_ghast_state_4_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dried_kelp_side_a": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dried_kelp_side_b": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dried_kelp_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dripstone_block": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dropper_front_horizontal": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/dropper_front_vertical": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/emerald_block": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/emerald_ore": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/enchanting_table_bottom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/enchanting_table_side": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/enchanting_table_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/end_bricks": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/end_gateway": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 17,
+  "w": 16
+ },
+ "textures/blocks/end_portal": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 17,
+  "w": 16
+ },
+ "textures/blocks/end_rod": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/end_stone": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/ender_chest_front": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/ender_chest_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/ender_chest_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/endframe_eye": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/endframe_side": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/endframe_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/explorer_pottery_pattern": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/exposed_chiseled_copper": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/exposed_copper": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/exposed_copper_bars": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/exposed_copper_bulb": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/exposed_copper_bulb_lit": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/exposed_copper_bulb_lit_powered": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/exposed_copper_bulb_powered": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/exposed_copper_chain1": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/exposed_copper_chain2": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/exposed_copper_chest_inventory_front": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/exposed_copper_chest_inventory_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/exposed_copper_chest_inventory_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/exposed_copper_door_bottom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/exposed_copper_door_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/exposed_copper_grate": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/exposed_copper_lantern": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 3,
+  "grey": false,
+  "h": 48,
+  "w": 16
+ },
+ "textures/blocks/exposed_copper_trapdoor": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/exposed_cut_copper": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/exposed_lightning_rod": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/eyeblossom_blooming": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/eyeblossom_dormant": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/eyeblossom_eyes_blooming": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/eyeblossom_stem_blooming": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/farmland_dry": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/farmland_wet": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/fern": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/fern_carried": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/fire_0": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 32,
+  "grey": false,
+  "h": 512,
+  "w": 16
+ },
+ "textures/blocks/fire_0_placeholder": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/fire_1": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 32,
+  "grey": false,
+  "h": 512,
+  "w": 16
+ },
+ "textures/blocks/fire_1_placeholder": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/firefly_bush": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/firefly_bush_firefly": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 10,
+  "grey": false,
+  "h": 160,
+  "w": 16
+ },
+ "textures/blocks/fletcher_table_side1": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/fletcher_table_side2": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/fletcher_table_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/flow_pottery_pattern": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/flower_allium": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/flower_blue_orchid": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/flower_cornflower": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/flower_dandelion": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/flower_houstonia": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/flower_lily_of_the_valley": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/flower_oxeye_daisy": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/flower_paeonia": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/flower_pot": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/flower_rose": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/flower_rose_blue": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/flower_tulip_orange": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/flower_tulip_pink": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/flower_tulip_red": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/flower_tulip_white": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/flower_wither_rose": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/flowering_azalea_side": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/flowering_azalea_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/friend_pottery_pattern": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/frogspawn": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/frosted_ice_0": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/frosted_ice_1": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/frosted_ice_2": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/frosted_ice_3": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/furnace_front_off": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/furnace_front_on": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/furnace_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/furnace_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/gilded_blackstone": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_black": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_blue": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_brown": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_cyan": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_gray": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_green": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_light_blue": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_lime": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_magenta": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_orange": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_pane_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_pane_top_black": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_pane_top_blue": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_pane_top_brown": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_pane_top_cyan": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_pane_top_gray": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_pane_top_green": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_pane_top_light_blue": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_pane_top_lime": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_pane_top_magenta": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_pane_top_orange": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_pane_top_pink": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_pane_top_purple": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_pane_top_red": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_pane_top_silver": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_pane_top_white": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_pane_top_yellow": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_pink": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_purple": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_red": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_silver": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_white": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glass_yellow": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glazed_terracotta_black": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glazed_terracotta_blue": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glazed_terracotta_brown": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glazed_terracotta_cyan": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glazed_terracotta_gray": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glazed_terracotta_green": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glazed_terracotta_light_blue": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glazed_terracotta_lime": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glazed_terracotta_magenta": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glazed_terracotta_orange": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glazed_terracotta_pink": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glazed_terracotta_purple": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glazed_terracotta_red": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glazed_terracotta_silver": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glazed_terracotta_white": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glazed_terracotta_yellow": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glow_item_frame": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glow_lichen": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glowing_obsidian": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/glowstone": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/gold_block": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/gold_ore": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/golden_dandelion": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/grass_block_snow": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/grass_carried": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/grass_path_side": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/grass_path_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/grass_side": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/grass_side_carried": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/grass_side_snowed": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/grass_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/gravel": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/grindstone_pivot": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/grindstone_round": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/grindstone_side": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/guster_pottery_pattern": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/hanging_roots": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/hardened_clay": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/hardened_clay_stained_black": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/hardened_clay_stained_blue": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/hardened_clay_stained_brown": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/hardened_clay_stained_cyan": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/hardened_clay_stained_gray": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/hardened_clay_stained_green": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/hardened_clay_stained_light_blue": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/hardened_clay_stained_lime": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/hardened_clay_stained_magenta": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/hardened_clay_stained_orange": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/hardened_clay_stained_pink": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/hardened_clay_stained_purple": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/hardened_clay_stained_red": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/hardened_clay_stained_silver": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/hardened_clay_stained_white": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/hardened_clay_stained_yellow": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/hay_block_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/hay_block_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/heart_pottery_pattern": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/heartbreak_pottery_pattern": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/heavy_core": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/honey_bottom": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/honey_side": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/honey_top": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/honeycomb": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/hopper_inside": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/hopper_outside": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/hopper_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/howl_pottery_pattern": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/huge_fungus/crimson_door_lower": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/huge_fungus/crimson_door_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/huge_fungus/crimson_log_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 5,
+  "grey": false,
+  "h": 80,
+  "w": 16
+ },
+ "textures/blocks/huge_fungus/crimson_log_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/huge_fungus/crimson_planks": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/huge_fungus/crimson_trapdoor": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/huge_fungus/stripped_crimson_stem_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/huge_fungus/stripped_crimson_stem_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/huge_fungus/stripped_warped_stem_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/huge_fungus/stripped_warped_stem_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/huge_fungus/warped_door_lower": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/huge_fungus/warped_door_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/huge_fungus/warped_planks": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/huge_fungus/warped_stem_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 5,
+  "grey": false,
+  "h": 80,
+  "w": 16
+ },
+ "textures/blocks/huge_fungus/warped_stem_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/huge_fungus/warped_trapdoor": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/ice": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/ice_packed": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/iron_bars": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/iron_block": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/iron_ore": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/iron_trapdoor": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/itemframe_background": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/jigsaw_back": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/jigsaw_front": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/jigsaw_lock": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/jigsaw_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/jukebox_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/jukebox_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/jungle_shelf": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 32,
+  "w": 32
+ },
+ "textures/blocks/jungle_trapdoor": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/kelp_a": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 20,
+  "grey": false,
+  "h": 320,
+  "w": 16
+ },
+ "textures/blocks/kelp_b": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 20,
+  "grey": false,
+  "h": 320,
+  "w": 16
+ },
+ "textures/blocks/kelp_c": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 20,
+  "grey": false,
+  "h": 320,
+  "w": 16
+ },
+ "textures/blocks/kelp_d": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 20,
+  "grey": false,
+  "h": 320,
+  "w": 16
+ },
+ "textures/blocks/kelp_top": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 20,
+  "grey": false,
+  "h": 320,
+  "w": 16
+ },
+ "textures/blocks/kelp_top_bulb": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 20,
+  "grey": false,
+  "h": 320,
+  "w": 16
+ },
+ "textures/blocks/ladder": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/lantern": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 3,
+  "grey": false,
+  "h": 48,
+  "w": 16
+ },
+ "textures/blocks/lapis_block": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/lapis_ore": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/large_amethyst_bud": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/lava_flow": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 16,
+  "grey": false,
+  "h": 512,
+  "w": 32
+ },
+ "textures/blocks/lava_flow_normal": {
+  "alpha": "none",
+  "ext": "tga",
+  "frames": 16,
+  "grey": false,
+  "h": 512,
+  "w": 32
+ },
+ "textures/blocks/lava_placeholder": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/lava_still": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 32,
+  "grey": false,
+  "h": 512,
+  "w": 16
+ },
+ "textures/blocks/lava_still_normal": {
+  "alpha": "none",
+  "ext": "tga",
+  "frames": 32,
+  "grey": false,
+  "h": 512,
+  "w": 16
+ },
+ "textures/blocks/leaf_litter": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/leaves_acacia": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/leaves_acacia_carried": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/leaves_acacia_opaque": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/leaves_big_oak": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/leaves_big_oak_carried": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/leaves_big_oak_opaque": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/leaves_birch": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/leaves_birch_carried": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/leaves_birch_opaque": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/leaves_jungle": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/leaves_jungle_carried": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/leaves_jungle_opaque": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/leaves_oak": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/leaves_oak_carried": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/leaves_oak_opaque": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/leaves_spruce": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/leaves_spruce_carried": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/leaves_spruce_opaque": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/lectern_base": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/lectern_front": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/lectern_sides": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/lectern_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/lever": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/lightning_rod": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/lightning_rod_powered": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/lodestone_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/lodestone_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/log_acacia": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/log_acacia_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/log_big_oak": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/log_big_oak_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/log_birch": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/log_birch_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/log_jungle": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/log_jungle_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/log_oak": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/log_oak_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/log_spruce": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/log_spruce_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/loom_bottom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/loom_front": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/loom_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/loom_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/magma": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 3,
+  "grey": false,
+  "h": 48,
+  "w": 16
+ },
+ "textures/blocks/mangrove_door_bottom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/mangrove_door_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/mangrove_leaves": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/mangrove_leaves_carried": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/mangrove_leaves_opaque": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/mangrove_log_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/mangrove_log_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/mangrove_planks": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/mangrove_propagule": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/mangrove_propagule_hanging": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/mangrove_roots_side": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/mangrove_roots_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/mangrove_shelf": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 32,
+  "w": 32
+ },
+ "textures/blocks/mangrove_trapdoor": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/medium_amethyst_bud": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/melon_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/melon_stem_connected": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/melon_stem_disconnected": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/melon_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/miner_pottery_pattern": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/missing_tile": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/mob_spawner": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/moss_block": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/mourner_pottery_pattern": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/mud": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/mud_bricks": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/muddy_mangrove_roots_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/muddy_mangrove_roots_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/mushroom_block_inside": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/mushroom_block_skin_brown": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/mushroom_block_skin_red": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/mushroom_block_skin_stem": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/mushroom_brown": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/mushroom_red": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/mycelium_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/mycelium_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/nether_brick": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/nether_gold_ore": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/nether_sprouts": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/nether_wart_block": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/nether_wart_stage_0": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/nether_wart_stage_1": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/nether_wart_stage_2": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/netherite_block": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/netherrack": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/noteblock": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/oak_shelf": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 32,
+  "w": 32
+ },
+ "textures/blocks/observer_back": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/observer_back_lit": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/observer_front": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/observer_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/observer_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/obsidian": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/ochre_froglight_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/ochre_froglight_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/orange_poplar_leaves": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/orange_poplar_leaves_opaque": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/oxidized_chiseled_copper": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/oxidized_copper": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/oxidized_copper_bars": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/oxidized_copper_bulb": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/oxidized_copper_bulb_lit": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/oxidized_copper_bulb_lit_powered": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/oxidized_copper_bulb_powered": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/oxidized_copper_chain1": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/oxidized_copper_chain2": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/oxidized_copper_chest_inventory_front": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/oxidized_copper_chest_inventory_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/oxidized_copper_chest_inventory_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/oxidized_copper_door_bottom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/oxidized_copper_door_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/oxidized_copper_grate": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/oxidized_copper_lantern": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 3,
+  "grey": false,
+  "h": 48,
+  "w": 16
+ },
+ "textures/blocks/oxidized_copper_trapdoor": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/oxidized_cut_copper": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/oxidized_lightning_rod": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/packed_mud": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pale_hanging_moss_middle": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pale_hanging_moss_tip": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pale_moss": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pale_moss_block": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pale_moss_carpet_side_base": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pale_moss_carpet_side_tip": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pale_oak_door_bottom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pale_oak_door_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pale_oak_leaves": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pale_oak_leaves_opaque": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pale_oak_log_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pale_oak_log_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pale_oak_planks": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pale_oak_sapling": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pale_oak_shelf": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 32,
+  "w": 32
+ },
+ "textures/blocks/pale_oak_trapdoor": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pearlescent_froglight_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pearlescent_froglight_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pink_petals": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pink_petals_stem": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/piston_bottom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/piston_inner": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/piston_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/piston_top_normal": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "note": "referenced by terrain_texture.json, absent from bedrock-samples",
+  "w": 16
+ },
+ "textures/blocks/piston_top_sticky": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pitcher_crop_bottom": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pitcher_crop_bottom_stage_1": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pitcher_crop_bottom_stage_2": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pitcher_crop_bottom_stage_3": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pitcher_crop_bottom_stage_4": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pitcher_crop_side": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pitcher_crop_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pitcher_crop_top_stage_3": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pitcher_crop_top_stage_4": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/planks_acacia": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/planks_big_oak": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/planks_birch": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/planks_jungle": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/planks_oak": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/planks_spruce": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/plenty_pottery_pattern": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pointed_dripstone_down_base": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pointed_dripstone_down_frustum": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pointed_dripstone_down_merge": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pointed_dripstone_down_middle": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pointed_dripstone_down_tip": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pointed_dripstone_up_base": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pointed_dripstone_up_frustum": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pointed_dripstone_up_merge": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pointed_dripstone_up_middle": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pointed_dripstone_up_tip": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/polished_basalt_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/polished_basalt_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/polished_blackstone": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/polished_blackstone_bricks": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/polished_cinnabar": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/polished_sulfur": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/polished_tuff": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/poplar_door_bottom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/poplar_door_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/poplar_log_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/poplar_log_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/poplar_planks": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/poplar_sapling": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/poplar_shelf": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 32,
+  "w": 32
+ },
+ "textures/blocks/poplar_trapdoor": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/portal": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 32,
+  "grey": false,
+  "h": 512,
+  "w": 16
+ },
+ "textures/blocks/portal_placeholder": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/potatoes_stage_0": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/potatoes_stage_1": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/potatoes_stage_2": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/potatoes_stage_3": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/potent_sulfur": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/potted_azalea_bush_plant": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/potted_azalea_bush_side": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/potted_azalea_bush_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/potted_flowering_azalea_bush_plant": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/potted_flowering_azalea_bush_side": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/potted_flowering_azalea_bush_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/powder_snow": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/prismarine_bricks": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/prismarine_dark": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/prismarine_rough": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 4,
+  "grey": false,
+  "h": 64,
+  "w": 16
+ },
+ "textures/blocks/prize_pottery_pattern": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pumpkin_face_off": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pumpkin_face_on": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pumpkin_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pumpkin_stem_connected": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pumpkin_stem_disconnected": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/pumpkin_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/purpur_block": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/purpur_pillar": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/purpur_pillar_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/quartz_block_bottom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/quartz_block_chiseled": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/quartz_block_chiseled_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/quartz_block_lines": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/quartz_block_lines_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/quartz_block_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/quartz_block_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/quartz_bricks": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/quartz_ore": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/rail_activator": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/rail_activator_powered": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/rail_detector": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/rail_detector_powered": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/rail_golden": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/rail_golden_powered": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/rail_normal": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "note": "referenced by terrain_texture.json, absent from bedrock-samples",
+  "w": 16
+ },
+ "textures/blocks/rail_normal_turned": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/raw_copper_block": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/raw_gold_block": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/raw_iron_block": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/reactor_core_stage_0": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/reactor_core_stage_1": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/reactor_core_stage_2": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/red_nether_brick": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/red_poplar_leaves": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/red_poplar_leaves_opaque": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/red_sand": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/red_sandstone_bottom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/red_sandstone_carved": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/red_sandstone_normal": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "note": "referenced by terrain_texture.json, absent from bedrock-samples",
+  "w": 16
+ },
+ "textures/blocks/red_sandstone_smooth": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/red_sandstone_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/red_shrub": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/redstone_block": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/redstone_dust_cross": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/redstone_dust_line": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/redstone_lamp_off": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/redstone_lamp_on": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/redstone_ore": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/redstone_torch_off": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/redstone_torch_on": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/reeds": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/reinforced_deepslate_bottom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/reinforced_deepslate_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/reinforced_deepslate_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/repeater_off": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/repeater_on": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/repeating_command_block_back": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 4,
+  "grey": false,
+  "h": 64,
+  "w": 16
+ },
+ "textures/blocks/repeating_command_block_back_mipmap": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/repeating_command_block_conditional": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 4,
+  "grey": false,
+  "h": 64,
+  "w": 16
+ },
+ "textures/blocks/repeating_command_block_conditional_mipmap": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/repeating_command_block_front": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 4,
+  "grey": false,
+  "h": 64,
+  "w": 16
+ },
+ "textures/blocks/repeating_command_block_front_mipmap": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/repeating_command_block_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 4,
+  "grey": false,
+  "h": 64,
+  "w": 16
+ },
+ "textures/blocks/repeating_command_block_side_mipmap": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/resin_block": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/resin_bricks": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/resin_clump": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/respawn_anchor_bottom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/respawn_anchor_side0": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/respawn_anchor_side1": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/respawn_anchor_side2": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/respawn_anchor_side3": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/respawn_anchor_side4": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/respawn_anchor_top": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 32,
+  "grey": false,
+  "h": 512,
+  "w": 16
+ },
+ "textures/blocks/respawn_anchor_top_off": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sand": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sandstone_bottom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sandstone_carved": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sandstone_normal": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "note": "referenced by terrain_texture.json, absent from bedrock-samples",
+  "w": 16
+ },
+ "textures/blocks/sandstone_smooth": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sandstone_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sapling_acacia": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sapling_birch": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sapling_jungle": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sapling_oak": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sapling_roofed_oak": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sapling_spruce": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/scaffolding_bottom": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/scaffolding_side": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/scaffolding_top": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/scrape_pottery_pattern": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sculk": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 4,
+  "grey": false,
+  "h": 64,
+  "w": 16
+ },
+ "textures/blocks/sculk_catalyst_bottom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sculk_catalyst_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sculk_catalyst_side_bloom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 8,
+  "grey": false,
+  "h": 128,
+  "w": 16
+ },
+ "textures/blocks/sculk_catalyst_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sculk_catalyst_top_bloom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 8,
+  "grey": false,
+  "h": 128,
+  "w": 16
+ },
+ "textures/blocks/sculk_sensor_bottom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sculk_sensor_side": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sculk_sensor_tendril_active": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 16,
+  "grey": false,
+  "h": 256,
+  "w": 16
+ },
+ "textures/blocks/sculk_sensor_tendril_inactive": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 16,
+  "grey": false,
+  "h": 256,
+  "w": 16
+ },
+ "textures/blocks/sculk_sensor_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sculk_shrieker_bottom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sculk_shrieker_can_summon_inner_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 10,
+  "grey": false,
+  "h": 160,
+  "w": 16
+ },
+ "textures/blocks/sculk_shrieker_inner_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 10,
+  "grey": false,
+  "h": 160,
+  "w": 16
+ },
+ "textures/blocks/sculk_shrieker_side": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sculk_shrieker_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sculk_vein": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 4,
+  "grey": false,
+  "h": 64,
+  "w": 16
+ },
+ "textures/blocks/sea_lantern": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 5,
+  "grey": false,
+  "h": 80,
+  "w": 16
+ },
+ "textures/blocks/sea_pickle": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/seagrass": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 18,
+  "grey": false,
+  "h": 288,
+  "w": 16
+ },
+ "textures/blocks/seagrass_carried": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/seagrass_doubletall_bottom_a": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 19,
+  "grey": false,
+  "h": 304,
+  "w": 16
+ },
+ "textures/blocks/seagrass_doubletall_bottom_b": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 19,
+  "grey": false,
+  "h": 304,
+  "w": 16
+ },
+ "textures/blocks/seagrass_doubletall_top_a": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 19,
+  "grey": false,
+  "h": 304,
+  "w": 16
+ },
+ "textures/blocks/seagrass_doubletall_top_b": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 19,
+  "grey": false,
+  "h": 304,
+  "w": 16
+ },
+ "textures/blocks/sheaf_pottery_pattern": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/shelf_mushroom_large": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 32,
+  "w": 32
+ },
+ "textures/blocks/shelf_mushroom_small": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 32,
+  "w": 32
+ },
+ "textures/blocks/shelter_pottery_pattern": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/short_dry_grass": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/shroomlight": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/shulker_top_black": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/shulker_top_blue": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/shulker_top_brown": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/shulker_top_cyan": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/shulker_top_gray": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/shulker_top_green": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/shulker_top_light_blue": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/shulker_top_lime": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/shulker_top_magenta": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/shulker_top_orange": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/shulker_top_pink": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/shulker_top_purple": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/shulker_top_red": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/shulker_top_silver": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/shulker_top_undyed": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/shulker_top_white": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/shulker_top_yellow": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/skull_pottery_pattern": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/slime": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/small_amethyst_bud": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/small_dripleaf_side": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/small_dripleaf_stem_bottom": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/small_dripleaf_stem_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/small_dripleaf_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/smithing_table_bottom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/smithing_table_front": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/smithing_table_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/smithing_table_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/smoker_bottom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/smoker_front_off": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/smoker_front_on": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 3,
+  "grey": false,
+  "h": 48,
+  "w": 16
+ },
+ "textures/blocks/smoker_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/smoker_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/smooth_basalt": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sniffer_egg_not_cracked_bottom": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sniffer_egg_not_cracked_east": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sniffer_egg_not_cracked_north": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sniffer_egg_not_cracked_south": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sniffer_egg_not_cracked_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sniffer_egg_not_cracked_west": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sniffer_egg_slightly_cracked_bottom": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sniffer_egg_slightly_cracked_east": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sniffer_egg_slightly_cracked_north": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sniffer_egg_slightly_cracked_south": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sniffer_egg_slightly_cracked_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sniffer_egg_slightly_cracked_west": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sniffer_egg_very_cracked_bottom": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sniffer_egg_very_cracked_east": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sniffer_egg_very_cracked_north": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sniffer_egg_very_cracked_south": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sniffer_egg_very_cracked_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sniffer_egg_very_cracked_west": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/snort_pottery_pattern": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/snow": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/soul_campfire": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 8,
+  "grey": false,
+  "h": 128,
+  "w": 16
+ },
+ "textures/blocks/soul_campfire_log_lit": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 4,
+  "grey": false,
+  "h": 64,
+  "w": 16
+ },
+ "textures/blocks/soul_fire_0": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 32,
+  "grey": false,
+  "h": 512,
+  "w": 16
+ },
+ "textures/blocks/soul_fire_1": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 32,
+  "grey": false,
+  "h": 512,
+  "w": 16
+ },
+ "textures/blocks/soul_lantern": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 3,
+  "grey": false,
+  "h": 48,
+  "w": 16
+ },
+ "textures/blocks/soul_sand": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/soul_soil": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/soul_torch": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sponge": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sponge_wet": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/spore_blossom": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/spore_blossom_base": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/spruce_shelf": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 32,
+  "w": 32
+ },
+ "textures/blocks/spruce_trapdoor": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stone": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stone_andesite": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stone_andesite_smooth": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stone_diorite": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stone_diorite_smooth": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stone_granite": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stone_granite_smooth": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stone_slab_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stone_slab_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stonebrick": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stonebrick_carved": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stonebrick_cracked": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stonebrick_mossy": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stonecutter2_bottom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stonecutter2_saw": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 3,
+  "grey": true,
+  "h": 48,
+  "w": 16
+ },
+ "textures/blocks/stonecutter2_side": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stonecutter2_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stonecutter_bottom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stonecutter_other_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stonecutter_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stonecutter_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/straw_bed": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 64,
+  "w": 64
+ },
+ "textures/blocks/stripped_acacia_log": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stripped_acacia_log_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stripped_bamboo_block": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stripped_bamboo_block_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stripped_birch_log": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stripped_birch_log_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stripped_cherry_log_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stripped_cherry_log_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stripped_dark_oak_log": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stripped_dark_oak_log_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stripped_jungle_log": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stripped_jungle_log_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stripped_mangrove_log_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stripped_mangrove_log_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stripped_oak_log": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stripped_oak_log_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stripped_pale_oak_log_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stripped_pale_oak_log_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stripped_poplar_log_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stripped_poplar_log_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stripped_poplar_side_log": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stripped_spruce_log": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/stripped_spruce_log_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/structure_air": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/structure_block": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/structure_block_corner": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/structure_block_data": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/structure_block_export": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/structure_block_load": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/structure_block_save": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/structure_void": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sulfur": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sulfur_bricks": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sulfur_spike_down_base": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sulfur_spike_down_frustum": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sulfur_spike_down_middle": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sulfur_spike_down_tip": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sulfur_spike_down_tip_merge": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sulfur_spike_up_base": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sulfur_spike_up_frustum": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sulfur_spike_up_middle": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sulfur_spike_up_tip": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sulfur_spike_up_tip_merge": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/suspicious_gravel_0": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/suspicious_gravel_1": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/suspicious_gravel_2": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/suspicious_gravel_3": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/suspicious_sand_0": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/suspicious_sand_1": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/suspicious_sand_2": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/suspicious_sand_3": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sweet_berry_bush_stage0": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sweet_berry_bush_stage1": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sweet_berry_bush_stage2": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/sweet_berry_bush_stage3": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/tall_dry_grass": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/tallgrass": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/tallgrass_carried": {
+  "alpha": "binary",
+  "ext": "tga",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/target_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/target_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/tinted_glass": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/tnt_bottom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/tnt_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/tnt_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/torch_on": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/torchflower": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/torchflower_crop_stage_0": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/torchflower_crop_stage_1": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/trapdoor": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/trapped_chest_front": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/trial_spawner_bottom": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/trial_spawner_side": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/trial_spawner_side_active": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/trial_spawner_side_active_ominous": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/trial_spawner_side_inactive": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/trial_spawner_side_inactive_ominous": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/trial_spawner_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/trial_spawner_top_active": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/trial_spawner_top_active_ominous": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/trial_spawner_top_ejecting_reward": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/trial_spawner_top_ejecting_reward_ominous": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/trial_spawner_top_inactive": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/trial_spawner_top_inactive_ominous": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/trial_spawner_top_open": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/trip_wire": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/trip_wire_source": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/tuff": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/tuff_bricks": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/turtle_egg_not_cracked": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/turtle_egg_slightly_cracked": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/turtle_egg_very_cracked": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/twisting_vines_base": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/twisting_vines_bottom": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/vault_bottom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/vault_bottom_ominous": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/vault_front_ejecting": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/vault_front_ejecting_ominous": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/vault_front_off": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/vault_front_off_ominous": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/vault_front_on": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/vault_front_on_ominous": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/vault_side_off": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/vault_side_off_ominous": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/vault_side_on": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/vault_side_on_ominous": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/vault_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/vault_top_ejecting": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/vault_top_ejecting_ominous": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/vault_top_ominous": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/verdant_froglight_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/verdant_froglight_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/vine": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/vine_carried": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/warped_fungus": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/warped_nylium_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/warped_nylium_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/warped_roots": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/warped_roots_pot": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/warped_shelf": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 32,
+  "w": 32
+ },
+ "textures/blocks/warped_wart_block": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/water_flow": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 32,
+  "grey": false,
+  "h": 1024,
+  "w": 32
+ },
+ "textures/blocks/water_flow_grey": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 32,
+  "grey": true,
+  "h": 1024,
+  "w": 32
+ },
+ "textures/blocks/water_flow_grey_normal": {
+  "alpha": "none",
+  "ext": "tga",
+  "frames": 32,
+  "grey": false,
+  "h": 1024,
+  "w": 32
+ },
+ "textures/blocks/water_placeholder": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/water_still": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 32,
+  "grey": false,
+  "h": 512,
+  "w": 16
+ },
+ "textures/blocks/water_still_grey": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 32,
+  "grey": true,
+  "h": 512,
+  "w": 16
+ },
+ "textures/blocks/water_still_grey_normal": {
+  "alpha": "none",
+  "ext": "tga",
+  "frames": 32,
+  "grey": false,
+  "h": 512,
+  "w": 16
+ },
+ "textures/blocks/waterlily": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/weathered_chiseled_copper": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/weathered_copper": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/weathered_copper_bars": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/weathered_copper_bulb": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/weathered_copper_bulb_lit": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/weathered_copper_bulb_lit_powered": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/weathered_copper_bulb_powered": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/weathered_copper_chain1": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/weathered_copper_chain2": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/weathered_copper_chest_inventory_front": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/weathered_copper_chest_inventory_side": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/weathered_copper_chest_inventory_top": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/weathered_copper_door_bottom": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/weathered_copper_door_top": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/weathered_copper_grate": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/weathered_copper_lantern": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 3,
+  "grey": false,
+  "h": 48,
+  "w": 16
+ },
+ "textures/blocks/weathered_copper_trapdoor": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/weathered_cut_copper": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/weathered_lightning_rod": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/web": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/weeping_vines": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/weeping_vines_base": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/weeping_vines_bottom": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/weeping_vines_plant": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/wheat_stage_0": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/wheat_stage_1": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/wheat_stage_2": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/wheat_stage_3": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/wheat_stage_4": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/wheat_stage_5": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/wheat_stage_6": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/wheat_stage_7": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/wildflowers": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/wildflowers_stem": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/wool_colored_black": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/wool_colored_blue": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/wool_colored_brown": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/wool_colored_cyan": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/wool_colored_gray": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/wool_colored_green": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/wool_colored_light_blue": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/wool_colored_lime": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/wool_colored_magenta": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/wool_colored_orange": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/wool_colored_pink": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/wool_colored_purple": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/wool_colored_red": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/wool_colored_silver": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/wool_colored_white": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/wool_colored_yellow": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/yellow_poplar_leaves": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/blocks/yellow_poplar_leaves_opaque": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/colormap/birch": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 256,
+  "w": 256
+ },
+ "textures/colormap/dry_foliage": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 256,
+  "w": 256
+ },
+ "textures/colormap/evergreen": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 256,
+  "w": 256
+ },
+ "textures/colormap/foliage": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 256,
+  "w": 256
+ },
+ "textures/colormap/grass": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 256,
+  "w": 256
+ },
+ "textures/colormap/mangrove_swamp_foliage": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 256,
+  "w": 256
+ },
+ "textures/colormap/swamp_foliage": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 256,
+  "w": 256
+ },
+ "textures/colormap/swamp_grass": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 256,
+  "w": 256
+ },
+ "textures/environment/clouds": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 256,
+  "w": 256
+ },
+ "textures/environment/destroy_stage_0": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/environment/destroy_stage_1": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/environment/destroy_stage_2": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/environment/destroy_stage_3": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/environment/destroy_stage_4": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/environment/destroy_stage_5": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/environment/destroy_stage_6": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/environment/destroy_stage_7": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/environment/destroy_stage_8": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/environment/destroy_stage_9": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/environment/end_flash": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 64,
+  "w": 64
+ },
+ "textures/environment/end_portal_colors": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 4,
+  "w": 4
+ },
+ "textures/environment/end_sky": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 128,
+  "w": 128
+ },
+ "textures/environment/moon_phases": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 64,
+  "w": 128
+ },
+ "textures/environment/sun": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 32,
+  "w": 32
+ },
+ "textures/environment/sun_vv": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 32,
+  "w": 32
+ },
+ "textures/environment/weather": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 32,
+  "w": 32
+ },
+ "textures/misc/enchanted_actor_glint": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 128,
+  "w": 128
+ },
+ "textures/misc/enchanted_item_glint": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 128,
+  "w": 128
+ },
+ "textures/misc/missing_texture": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/misc/nausea": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 256,
+  "w": 256
+ },
+ "textures/misc/pumpkinblur": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 256,
+  "w": 256
+ },
+ "textures/particle/biome_tinted_leaves_atlas": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 21,
+  "w": 28
+ },
+ "textures/particle/bubble_white": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 8,
+  "w": 8
+ },
+ "textures/particle/campfire_smoke": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 12,
+  "grey": false,
+  "h": 192,
+  "w": 16
+ },
+ "textures/particle/cherry_petal_atlas": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 9,
+  "w": 12
+ },
+ "textures/particle/geyser_base": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 8,
+  "grey": true,
+  "h": 128,
+  "w": 16
+ },
+ "textures/particle/geyser_plume": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 8,
+  "grey": true,
+  "h": 128,
+  "w": 16
+ },
+ "textures/particle/geyser_poof": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 8,
+  "grey": true,
+  "h": 128,
+  "w": 16
+ },
+ "textures/particle/gust": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 32,
+  "w": 384
+ },
+ "textures/particle/infested": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 8,
+  "w": 8
+ },
+ "textures/particle/noxious_gas": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 8,
+  "grey": false,
+  "h": 128,
+  "w": 16
+ },
+ "textures/particle/ominous_spawning": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 16,
+  "w": 16
+ },
+ "textures/particle/orange_poplar_leaves_atlas": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 7,
+  "w": 28
+ },
+ "textures/particle/pale_oak_leaves_atlas": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 21,
+  "w": 28
+ },
+ "textures/particle/particles": {
+  "alpha": "partial",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 128,
+  "w": 128
+ },
+ "textures/particle/pixel": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": true,
+  "h": 1,
+  "w": 1
+ },
+ "textures/particle/raid_omen": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 5,
+  "w": 5
+ },
+ "textures/particle/red_poplar_leaves_atlas": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 7,
+  "w": 28
+ },
+ "textures/particle/sculk_charge": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 7,
+  "grey": false,
+  "h": 112,
+  "w": 16
+ },
+ "textures/particle/sculk_charge_pop": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 4,
+  "grey": false,
+  "h": 64,
+  "w": 16
+ },
+ "textures/particle/sculk_soul": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 11,
+  "grey": false,
+  "h": 176,
+  "w": 16
+ },
+ "textures/particle/shelf_mushroom_particle": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/particle/shriek": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 13,
+  "w": 13
+ },
+ "textures/particle/small_gust": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 8,
+  "w": 56
+ },
+ "textures/particle/sonic_explosion": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 16,
+  "grey": false,
+  "h": 512,
+  "w": 32
+ },
+ "textures/particle/soul": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 11,
+  "grey": false,
+  "h": 176,
+  "w": 16
+ },
+ "textures/particle/straw_bed_particle": {
+  "alpha": "none",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/particle/sulfur_cube_goo": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 16,
+  "w": 16
+ },
+ "textures/particle/trial_omen": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 5,
+  "w": 5
+ },
+ "textures/particle/vault_connection": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 8,
+  "w": 8
+ },
+ "textures/particle/vibration_signal": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 7,
+  "grey": false,
+  "h": 126,
+  "w": 18
+ },
+ "textures/particle/yellow_poplar_leaves_atlas": {
+  "alpha": "binary",
+  "ext": "png",
+  "frames": 1,
+  "grey": false,
+  "h": 7,
+  "w": 28
+ }
+}

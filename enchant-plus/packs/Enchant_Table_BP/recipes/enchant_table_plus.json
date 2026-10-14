@@ -1,0 +1,42 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "da:enchant_table_plus"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " C ",
+      "ABA",
+      "BDB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:emerald"
+      },
+      "B": {
+        "item": "minecraft:obsidian"
+      },
+      "C": {
+        "item": "da:enchant_essence"
+      },
+      "D": {
+        "item": "minecraft:enchanting_table"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:enchanting_table"
+      },
+      {
+        "item": "da:enchant_essence"
+      }
+    ],
+    "result": {
+      "item": "da:enchant_table_plus",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "da:enchant_sphere",
+      "materials": {
+        "default": "entity_emissive"
+      },
+      "textures": {
+        "default": "textures/enchant_plus/entity/enchant_sphere"
+      },
+      "geometry": {
+        "default": "geometry.enchant_sphere"
+      },
+      "render_controllers": [
+        "controller.render.da_enchant_sphere"
+      ],
+      "animations": {
+        "idle": "animation.enchant_sphere.idle",
+        "glow": "controller.animation.enchant_sphere"
+      },
+      "particle_effects": {
+        "glow": "da:enchant_sphere"
+      },
+      "scripts": {
+        "animate": [
+          "idle",
+          "glow"
+        ]
+      }
+    }
+  }
+}

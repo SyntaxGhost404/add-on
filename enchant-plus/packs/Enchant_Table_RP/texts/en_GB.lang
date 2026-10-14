@@ -1,0 +1,77 @@
+## Enchant+ (resource pack)
+pack.name=§dEnchant+ §f[RP]
+pack.description=Textures, models and menus for Enchant+. For Minecraft 1.26.50+.
+
+tile.da:enchant_table_plus.name=Enchant+ Table
+item.da:enchant_essence.name=Enchant Essence
+entity.da:enchant_sphere.name=Enchanting Orb
+
+enchant_plus.title.home=Enchant+
+enchant_plus.title.item=Item
+enchant_plus.title.enchant=Add Enchantments
+enchant_plus.title.disenchant=Remove Enchantments
+enchant_plus.title.transfer=Transfer Enchantments
+enchant_plus.title.confirm=Confirm
+
+enchant_plus.home.body=Choose an item to enchant, to remove enchantments from, or to move its enchantments to another item.
+enchant_plus.item.no_enchantments=§7No enchantments yet.
+
+enchant_plus.button.enchant=Add enchantments
+enchant_plus.button.disenchant=Remove enchantments
+enchant_plus.button.transfer=Transfer enchantments
+enchant_plus.button.back=Back
+enchant_plus.button.review=Review
+enchant_plus.button.confirm=§2Confirm
+enchant_plus.button.remove_all=Remove all enchantments
+enchant_plus.button.remove_some=Choose what to remove
+
+enchant_plus.enchant.help=Move each slider to the level you want. You only pay for the levels you add.
+enchant_plus.enchant.blocked=Not available on this item right now:
+enchant_plus.disenchant.body=Remove every enchantment, or choose how many levels to take off each one. Removed levels are gone for good.
+enchant_plus.disenchant.help=Move each slider to the level you want to keep.
+enchant_plus.transfer.pick=Choose the item that receives the enchantments.
+enchant_plus.transfer.help=Move enchantment levels from %s to %s.
+enchant_plus.transfer.levels=- levels to move
+enchant_plus.transfer.blocked=These cannot move:
+enchant_plus.transfer.not_accepted=the other item does not accept it
+enchant_plus.transfer.at_max=already at its highest level there
+enchant_plus.conflicts_with=conflicts with %s
+enchant_plus.max=(max %s)
+enchant_plus.removed=removed
+
+enchant_plus.price.per_level=Price per level:
+enchant_plus.price.xp=%s XP levels
+enchant_plus.price.item=%s %s
+enchant_plus.price.score=%s %s
+enchant_plus.price.none=Free
+enchant_plus.balance.xp=§bXP levels: §a%s
+enchant_plus.balance.item=§b%s: §a%s
+enchant_plus.balance.score=§b%s: §a%s
+enchant_plus.balance.free=§aFree in Creative mode
+enchant_plus.confirm.cost=§bYou pay:
+enchant_plus.confirm.refund=§bYou get back:
+enchant_plus.confirm.missing=You are missing:
+
+enchant_plus.count.one=1 enchantment
+enchant_plus.count.many=%s enchantments
+enchant_plus.place.hotbar=Hotbar slot %s
+enchant_plus.place.inventory=Inventory slot %s
+enchant_plus.place.head=Worn on head
+enchant_plus.place.chest=Worn on chest
+enchant_plus.place.legs=Worn on legs
+enchant_plus.place.feet=Worn on feet
+enchant_plus.place.offhand=Off hand
+
+enchant_plus.msg.no_items=You are not carrying anything that can be enchanted.
+enchant_plus.msg.nothing_to_add=This item already has every enchantment it can take, at the highest level.
+enchant_plus.msg.nothing_selected=Nothing was changed.
+enchant_plus.msg.conflict=§cThese enchantments cannot be on the same item:
+enchant_plus.msg.changed=§cThe item changed while the menu was open, so nothing was done.
+enchant_plus.msg.refused=§cThe game does not accept %s on this item. Nothing was charged.
+enchant_plus.msg.cannot_afford=§cYou cannot afford this. You are missing:
+enchant_plus.msg.enchanted=§aEnchanted: %s
+enchant_plus.msg.disenchanted=§aEnchantments removed: %s
+enchant_plus.msg.transferred=§aEnchantments moved from %s to %s.
+enchant_plus.msg.no_enchantments=This item has no enchantments.
+enchant_plus.msg.no_target=You need a second enchantable item to transfer to.
+enchant_plus.msg.nothing_movable=§cNone of these enchantments can move to that item:

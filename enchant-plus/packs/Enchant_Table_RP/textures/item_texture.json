@@ -1,0 +1,9 @@
+{
+  "resource_pack_name": "enchant_plus",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "da:enchant_essence": {
+      "textures": "textures/enchant_plus/items/enchant_essence"
+    }
+  }
+}

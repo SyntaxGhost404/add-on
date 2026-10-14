@@ -1,0 +1,9 @@
+{
+  "namespace": "enchant_plus",
+
+  "dialog_background@common.dialog_background_hollow_common": {
+    "texture": "textures/enchant_plus/ui/frame",
+    "$dialog_background_texture": "textures/enchant_plus/ui/fill",
+    "$fill_alpha": 0.94
+  }
+}

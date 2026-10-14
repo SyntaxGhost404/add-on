@@ -1,0 +1,47 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "pack.name",
+    "description": "pack.description",
+    "uuid": "edeb2cdc-791e-4edb-b279-0a53f4fae3d5",
+    "version": [
+      1,
+      1,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      50
+    ],
+    "pack_scope": "world"
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "8e05ba3e-4728-4e04-804c-5e964e0fdbb0",
+      "version": [
+        1,
+        1,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "2252a380-edfc-408d-ac4f-118a1128d251",
+      "version": [
+        1,
+        1,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "Death_Aruban"
+    ],
+    "url": "https://github.com/DeathAruban/Enchant-MCBE",
+    "license": "Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)"
+  }
+}
